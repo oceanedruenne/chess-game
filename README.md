@@ -40,29 +40,29 @@ Compterons comme des bonus :
 
 Votre application doit proposer 3 écrans :
 
-- un écran de démarrage pour choisir les **paramètres** : nom des joueurs, lequel commence avec les blancs, etc.
-- un écran de jeu avec le plateau, les pièces capturées, les scores, etc.
-- un écran de fin de jeu qui annonce le vainqueur
+- un écran de **démarrage** pour choisir les paramètres : nom des joueurs, lequel commence avec les blancs, etc.
+- un écran de jeu avec **le plateau**, les pièces capturées, les scores, etc.
+- un écran de **fin de jeu** qui annonce le vainqueur
 
 Au niveau visuel :
 
-- les blancs sont toujours situés en bas du plateau
-- les pièces peuvent être symbolisées par une lettre sur la case dans un 1er temps, par une image dans un second temps
-- la liste des pièces capturées par chaque joueur doit être visible en permanence
-- lorsque le roi est en échec, il faut l'indiquer visuellement, de la façon qui vous arrange : texte, couleur, à côté ou sur le plateau, comme vous préférez)
+- les **blancs** sont toujours situés en bas du plateau
+- les pièces peuvent être symbolisées par une **lettre** sur la case dans un 1er temps, par une image dans un second temps
+- la **liste des pièces capturées** par chaque joueur doit être visible en permanence
+- lorsque le roi est en **échec**, il faut l'indiquer visuellement, de la façon qui vous arrange : texte, couleur, à côté ou sur le plateau, comme vous préférez)
 
 #### Les interactions
 
 Un joueur doit pouvoir réaliser les actions suivantes :
 
-- Un premier clic sur une case avec une pièce à soi doit :
-  - sélectionner cette pièce,
-  - identifier visuellement les cases de destination possible de cette pièce.
-- Lorsqu'une pièce est sélectionnée, un second clic sur une autre case :
-  - n'a aucun effet si le déplacement est invalide,
-  - doit déplacer la pièce vers cette case si le déplacement est valide,
-  - doit capturer la pièce adverse s'il y en a une sur la case de destination.
-- Un clic sur une case vide ou avec une pièce adverse ne doit avoir aucun effet.
+- Un **premier clic** sur une case avec une pièce à soi doit :
+  - **sélectionner** cette pièce,
+  - identifier visuellement les **cases de destination** possible de cette pièce.
+- Lorsqu'une pièce est sélectionnée, un **second clic** sur une autre case :
+  - n'a **aucun effet** si le déplacement est invalide,
+  - doit **déplacer la pièce** vers cette case si le déplacement est valide,
+  - doit **capturer la pièce adverse** s'il y en a une sur la case de destination.
+- Un clic sur une **case vide ou avec une pièce adverse ne doit avoir **aucun effet**.
 
 Attention, **il n'y a pas de gestion du temps, ni de joueur IA**.
 
