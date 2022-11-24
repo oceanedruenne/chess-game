@@ -22,9 +22,6 @@ class Player {
     + Player(name : String,pieceList : List<Piece>,color : String)
 }
 
-interface IAbstractPiece {
-    + changePosition(posX : String, posY : Integer)
-}
 
 abstract class Piece
 {
