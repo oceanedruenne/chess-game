@@ -1,36 +1,37 @@
 @startuml
 'https://plantuml.com/class-diagram
+class ChessGameSingleton {
+    - chessGame : ChessGameSingleton
+    - ChessGameSingleton()
+    + getInstanceChessGame() : ChessGame
+}
 
-
-
-
-
-class ChessGame {
-- window : Window
-- players : List<Player>
-- ChessGame(window : Window, listPlayers : List<Player>)
-+ getInstanceChessGame() : ChessGame
+abstract class ChessGame
+{
+     + frame : JFrame
+     + players : List<Player>
+     + ChessGame(frame : JFrame, listPlayers : List<Player>)
 }
 
 class Player {
-+ namePlayer : String
-+ piece : List<Piece>
-+ nbPieces : Integer
-+ colorOfPiece : String
-+ score = 0 : Integer
-+ Player(name : String,piece : Piece,color : String)
+    + namePlayer : String
+    + pieceList : List<Piece>
+    + nbPieces = 16 : Integer
+    + colorOfPiece : String
+    + score = 0 : Integer
+    + Player(name : String,pieceList : List<Piece>,color : String)
 }
 
-abstract class AbstractPiece {
-+ moveForward(posX : String, posY : Integer)
-+ moveBackward(posX : String, posY : Integer)
-+ moveHorizontal(posX : String, posY : Integer)
+interface IAbstractPiece {
+    + changePosition(posX : String, posY : Integer)
 }
 
-class Piece
+abstract class Piece
 {
-+ <<Create>> Piece(posX : String, posY : Integer)
-+ doSomething()
+    + posX : String
+    + posY : Integer
+    + <<Create>> Piece(posX : String, posY : Integer)
+    + changePosition(posX : String, posY : Integer)
 }
 
 class PieceFactory
@@ -49,9 +50,7 @@ class Rook
    + posX : String
    + posY : Integer
    + Rook()
-   + moveForward(posX : String, posY : Integer)
-   + moveBackward(posX : String, posY : Integer)
-   + moveHorizontal(posX : String, posY : Integer)
+   + changePosition(posX : String, posY : Integer)
 }
 
 class Knight
@@ -59,9 +58,7 @@ class Knight
     + posX : String
     + posY : Integer
     + Knight()
-    + moveForward(posX : String, posY : Integer)
-    + moveBackward(posX : String, posY : Integer)
-    + moveHorizontal(posX : String, posY : Integer)
+    + changePosition(posX : String, posY : Integer)
 }
 
 class Bishop
@@ -69,9 +66,7 @@ class Bishop
     + posX : String
     + posY : Integer
     + Bishop()
-    + moveForward(posX : String, posY : Integer)
-    + moveBackward(posX : String, posY : Integer)
-    + moveHorizontal(posX : String, posY : Integer)
+    + changePosition(posX : String, posY : Integer)
 }
 
 class Queen
@@ -79,9 +74,7 @@ class Queen
     + posX : String
     + posY : Integer
     + Queen()
-    + moveForward(posX : String, posY : Integer)
-    + moveBackward(posX : String, posY : Integer)
-    + moveHorizontal(posX : String, posY : Integer)
+    + changePosition(posX : String, posY : Integer)
 }
 
 class King
@@ -89,9 +82,7 @@ class King
     + posX : String
     + posY : Integer
     + King()
-    + moveForward(posX : String, posY : Integer)
-    + moveBackward(posX : String, posY : Integer)
-    + moveHorizontal(posX : String, posY : Integer)
+    + changePosition(posX : String, posY : Integer)
 }
 
 class Pawn
@@ -99,12 +90,12 @@ class Pawn
     + posX : String
     + posY : Integer
     + Pawn()
-    + moveForward(posX : String, posY : Integer)
+    + changePosition(posX : String, posY : Integer)
 }
 
-Piece -.> "use" AbstractPiece
+Piece -.> "implements" Piece
 Piece -.> "use" PieceFactory
-PieceFactory -.> "use" AbstractPiece
+PieceFactory -.> "use" Piece
 PieceFactory -.> "use" Rook
 PieceFactory -.> "use" Knight
 PieceFactory -.> "use" Bishop
@@ -112,15 +103,16 @@ PieceFactory -.> "use" Queen
 PieceFactory -.> "use" King
 PieceFactory -.> "use" Pawn
 
-Rook --|> AbstractPiece
-Knight --|> AbstractPiece
-Bishop --|> AbstractPiece
-Queen --|> AbstractPiece
-King --|> AbstractPiece
-Pawn --|> AbstractPiece
+Rook --|> Piece
+Knight --|> Piece
+Bishop --|> Piece
+Queen --|> Piece
+King --|> Piece
+Pawn --|> Piece
 
 ChessGame *--> "play to  2 players" Player
 Player *--> "play with 16" Piece
+ChessGameSingleton *--> "extends" ChessGame
 
 
 @enduml
