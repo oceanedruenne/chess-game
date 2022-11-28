@@ -1,14 +1,28 @@
-public class King {
-    public String posX;
-    public int posY;
+import java.util.ArrayList;
+import java.util.List;
 
-    public King(String posX,int posY)
+public class King extends Piece {
+
+    public King()
     {
-        this.posX = posX;
-        this.posY = posY;
-    }
-
-    public void changePosition(String posX, int posY) {
 
     }
+
+   @Override
+   public List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY)
+   {
+       List<Tile> nonOccupedTiles = new ArrayList<Tile>();
+       for (int i = posX-1;i<=posX+1;i++)
+       {
+           for (int j = posY-1;j<=posY+1;j++)
+           {
+               if (tiles[i][j].isOccuped() == false)
+               {
+                    nonOccupedTiles.add(tiles[i][j]);
+               }
+           }
+       }
+       return nonOccupedTiles;
+
+   }
 }

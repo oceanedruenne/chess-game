@@ -8,33 +8,33 @@ public class PieceFactory {
 
     }
 
-    public Rook createRook(String posX, int posY)
+    public Rook createRook()
     {
-        return new Rook(posX,posY);
+        return new Rook();
     }
 
-    public Knight createKnight(String posX, int posY)
+    public Knight createKnight()
     {
-        return new Knight(posX,posY);
+        return new Knight();
     }
 
-    public Bishop createBishop(String posX, int posY)
+    public Bishop createBishop()
     {
-        return new Bishop(posX,posY);
+        return new Bishop();
     }
 
-    public Queen createQueen(String posX, int posY)
+    public Queen createQueen()
     {
-        return new Queen(posX,posY);
+        return new Queen();
     }
 
-    public King createKing(String posX, int posY)
+    public King createKing()
     {
-        return new King(posX,posY);
+        return new King();
     }
 
-    public Pawn createPawn(String posX, int posY)
+    public Pawn createPawn()
     {
-        return new Pawn(posX,posY);
+        return new Pawn();
     }
 }

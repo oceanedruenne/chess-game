@@ -1,14 +1,13 @@
+import java.util.List;
+
 public abstract class Piece {
 
-    public String posX;
-    public int posY;
 
-    public Piece(String posX, int posY)
+
+    public Piece()
     {
-        this.posX = posX;
-        this.posY = posY;
-    }
-    public void changePosition(String posX, int posY) {
 
     }
+
+    public abstract List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY);
 }

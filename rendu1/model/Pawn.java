@@ -1,12 +1,10 @@
-public class Pawn {
+public class Pawn extends Piece{
 
-    public String posX;
-    public int posY;
 
-    public Pawn(String posX,int posY)
+
+    public Pawn()
     {
-        this.posX = posX;
-        this.posY = posY;
+
     }
 
     public void changePosition(String posX, int posY) {

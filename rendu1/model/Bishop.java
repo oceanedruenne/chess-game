@@ -1,14 +1,53 @@
-public class Bishop {
-    public String posX;
-    public int posY;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Bishop(String posX,int posY)
+public class Bishop extends Piece {
+
+
+    public Bishop()
     {
-        this.posX = posX;
-        this.posY = posY;
+
     }
 
-    public void changePosition(String posX, int posY) {
+    @Override
+    public List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY)
+    {
+        List<Tile> nonOccupedTiles = new ArrayList<Tile>();
 
+        for (int i = 0;i<8;i++)
+        {
+            if(posX+i<=8 && posY+i<=8) {
+                if (tiles[posX + i][posY + i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX + i][posY + i]);
+                }
+            }
+
+            if(posX+i<=8 && posY-i>=0) {
+                if (tiles[posX + i][posY - i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX + i][posY - i]);
+                }
+            }
+
+            if(posX-i>=0 && posY-i>=0) {
+                if (tiles[posX - i][posY - i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX - i][posY - i]);
+                }
+            }
+
+            if(posX-i>=0 && posY+i<=8) {
+                if (tiles[posX - i][posY + i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX - i][posY + i]);
+                }
+            }
+        }
+        return nonOccupedTiles;
     }
 }
