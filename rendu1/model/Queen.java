@@ -3,9 +3,10 @@ import java.util.List;
 
 public class Queen extends Piece{
 
-    public Queen()
+    public String color;
+    public Queen(String couleur)
     {
-
+        this.color = couleur;
     }
 
     @Override
@@ -13,73 +14,77 @@ public class Queen extends Piece{
         List<Tile> nonOccupedTiles = new ArrayList<Tile>();
 
         for (int i = posX; i >= 0; i--) {
-            if (tiles[i][posY].isOccuped()) {
-                break;
-            } else {
-                nonOccupedTiles.add(tiles[i][posY]);
+            if (i>=0) {
+                if (tiles[i][posY].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[i][posY]);
+                }
             }
         }
 
         for (int j = posX; j <= 8; j++) {
-            if (tiles[j][posY].isOccuped()) {
-                break;
-            } else {
-                nonOccupedTiles.add(tiles[j][posY]);
+            if (j<=8) {
+                if (tiles[j][posY].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[j][posY]);
+                }
             }
         }
 
         for (int k = posY; k >= 0; k--) {
-            if (tiles[posX][k].isOccuped()) {
-                break;
-            } else {
-                nonOccupedTiles.add(tiles[posX][k]);
+            if (k>=0) {
+                if (tiles[posX][k].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX][k]);
+                }
             }
         }
 
         for (int l = posY; l <= 8; l++) {
-            if (tiles[posX][l].isOccuped()) {
-                break;
-            } else {
-                nonOccupedTiles.add(tiles[posX][l]);
+            if (l<=8) {
+                if (tiles[posX][l].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX][l]);
+                }
             }
         }
 
         for (int i = 0;i<8;i++)
         {
-            if (tiles[posX+i][posY+i].isOccuped())
-            {
-                break;
-            }
-            else
-            {
-                nonOccupedTiles.add(tiles[posX+i][posY+i]);
-            }
-
-            if (tiles[posX+i][posY-i].isOccuped())
-            {
-                break;
-            }
-            else
-            {
-                nonOccupedTiles.add(tiles[posX+i][posY-i]);
+            if(posX+i<=8 && posY+i<=8) {
+                if (tiles[posX + i][posY + i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX + i][posY + i]);
+                }
             }
 
-            if (tiles[posX-i][posY-i].isOccuped())
-            {
-                break;
-            }
-            else
-            {
-                nonOccupedTiles.add(tiles[posX-i][posY-i]);
+            if(posX+i<=8 && posY-i>=0) {
+                if (tiles[posX + i][posY - i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX + i][posY - i]);
+                }
             }
 
-            if (tiles[posX-i][posY+i].isOccuped())
-            {
-                break;
+            if(posX-i>=0 && posY-i>=0) {
+                if (tiles[posX - i][posY - i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX - i][posY - i]);
+                }
             }
-            else
-            {
-                nonOccupedTiles.add(tiles[posX-i][posY+i]);
+
+            if(posX-i>=0 && posY+i<=8) {
+                if (tiles[posX - i][posY + i].isOccuped()) {
+                    break;
+                } else {
+                    nonOccupedTiles.add(tiles[posX - i][posY + i]);
+                }
             }
         }
         return nonOccupedTiles;

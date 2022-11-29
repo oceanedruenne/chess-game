@@ -3,9 +3,10 @@ import java.util.List;
 
 public class Rook extends Piece{
 
-    public Rook()
+    public String color;
+    public Rook( String couleur)
     {
-
+        this.color = couleur;
     }
 
    @Override
@@ -15,49 +16,45 @@ public class Rook extends Piece{
 
        for (int i = posX;i>=0;i--)
        {
-           if(tiles[i][posY].isOccuped())
-           {
-               break;
-           }
-           else
-           {
-               nonOccupedTiles.add(tiles[i][posY]);
+           if(posX-i>=0) {
+               if (tiles[i][posY].isOccuped()) {
+                   break;
+               } else {
+                   nonOccupedTiles.add(tiles[i][posY]);
+               }
            }
        }
 
        for (int j = posX;j<=8;j++)
        {
-           if (tiles[j][posY].isOccuped())
-           {
-               break;
-           }
-           else
-           {
-               nonOccupedTiles.add(tiles[j][posY]);
+           if (posX+j<=8) {
+               if (tiles[j][posY].isOccuped()) {
+                   break;
+               } else {
+                   nonOccupedTiles.add(tiles[j][posY]);
+               }
            }
        }
 
        for (int k = posY;k>=0;k--)
        {
-           if (tiles[posX][k].isOccuped())
-           {
-               break;
-           }
-           else
-           {
-               nonOccupedTiles.add(tiles[posX][k]);
+           if (posY-k >=0) {
+               if (tiles[posX][k].isOccuped()) {
+                   break;
+               } else {
+                   nonOccupedTiles.add(tiles[posX][k]);
+               }
            }
        }
 
        for (int l = posY;l<=8;l++)
        {
-           if(tiles[posX][l].isOccuped())
-           {
-               break;
-           }
-           else
-           {
-               nonOccupedTiles.add(tiles[posX][l]);
+           if (posY+l<=8) {
+               if (tiles[posX][l].isOccuped()) {
+                   break;
+               } else {
+                   nonOccupedTiles.add(tiles[posX][l]);
+               }
            }
        }
 

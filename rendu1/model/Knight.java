@@ -3,10 +3,10 @@ import java.util.List;
 
 public class Knight extends Piece{
 
-
-    public Knight()
+    public String color;
+    public Knight(String couleur)
     {
-
+        this.color = couleur;
     }
 
     @Override
@@ -18,13 +18,12 @@ public class Knight extends Piece{
         {
             for (int j = posY;j>=posY-2;j--)
             {
-                if (tiles[i][j].isOccuped())
-                {
-                    break;
-                }
-                else
-                {
-                    nonOccupedTiles.add(tiles[i][j]);
+                if (i<=8 && j>=0) {
+                    if (tiles[i][j].isOccuped()) {
+                        break;
+                    } else {
+                        nonOccupedTiles.add(tiles[i][j]);
+                    }
                 }
             }
         }
@@ -33,13 +32,12 @@ public class Knight extends Piece{
         {
             for (int l = posY;l<=posY+2;l++)
             {
-                if (tiles[k][l].isOccuped())
-                {
-                    break;
-                }
-                else
-                {
-                    nonOccupedTiles.add(tiles[k][l]);
+                if (k<=8 && l<=8) {
+                    if (tiles[k][l].isOccuped()) {
+                        break;
+                    } else {
+                        nonOccupedTiles.add(tiles[k][l]);
+                    }
                 }
             }
         }
@@ -48,13 +46,12 @@ public class Knight extends Piece{
         {
             for (int n = posY;n<=posY+2;n++)
             {
-                if (tiles[m][n].isOccuped())
-                {
-                    break;
-                }
-                else
-                {
-                    nonOccupedTiles.add(tiles[m][n]);
+                if (m>=0 && n<=8) {
+                    if (tiles[m][n].isOccuped()) {
+                        break;
+                    } else {
+                        nonOccupedTiles.add(tiles[m][n]);
+                    }
                 }
             }
         }
@@ -63,13 +60,12 @@ public class Knight extends Piece{
         {
             for (int p = posY;p>=posY-2;p--)
             {
-                if (tiles[o][p].isOccuped())
-                {
-                    break;
-                }
-                else
-                {
-                    nonOccupedTiles.add(tiles[o][p]);
+                if (o>=0 && p>=0) {
+                    if (tiles[o][p].isOccuped()) {
+                        break;
+                    } else {
+                        nonOccupedTiles.add(tiles[o][p]);
+                    }
                 }
             }
         }

@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class King extends Piece {
-
-    public King()
+    public String color;
+    public King(String couleur)
     {
-
+        this.color = couleur;
     }
 
    @Override
@@ -16,9 +16,10 @@ public class King extends Piece {
        {
            for (int j = posY-1;j<=posY+1;j++)
            {
-               if (tiles[i][j].isOccuped() == false)
-               {
-                    nonOccupedTiles.add(tiles[i][j]);
+               if(i>=0 && j>=0 && i<=8 && j<=8) {
+                   if (tiles[i][j].isOccuped() == false) {
+                       nonOccupedTiles.add(tiles[i][j]);
+                   }
                }
            }
        }
