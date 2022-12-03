@@ -1,14 +1,22 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// CAVALIER
 public class Knight extends Piece{
 
-    public String color;
-    public Knight(String couleur)
+    public Color color;
+    public Knight(Color couleur)
     {
         this.color = couleur;
     }
 
+
+    /* getLevalMoves : List<Tile>
+     * Paramètres : Tile[][] tiles, int posX, int posY
+     * Variables locales : List<Tile> nonOccupedTiles
+     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le fou
+     * depuis sa position
+     * */
     @Override
     public List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY) {
         List<Tile> nonOccupedTiles = new ArrayList<Tile>();

@@ -12,12 +12,12 @@ public class PieceFactory {
         return new Rook(couleur);
     }
 
-    public Knight createKnight(String couleur)
+    public Knight createKnight(Color couleur)
     {
         return new Knight(couleur);
     }
 
-    public Bishop createBishop(String couleur)
+    public Bishop createBishop(Color couleur)
     {
         return new Bishop(couleur);
     }
@@ -27,7 +27,7 @@ public class PieceFactory {
         return new Queen(couleur);
     }
 
-    public King createKing(String couleur)
+    public King createKing(Color couleur)
     {
         return new King(couleur);
     }
