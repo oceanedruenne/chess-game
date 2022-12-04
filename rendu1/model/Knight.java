@@ -2,9 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 // CAVALIER
+// Le cavalier peut leap les autres pièces donc on a pas besoin de vérifier si la case est occupée ou non
 public class Knight extends Piece{
 
-    public Color color;
+    private Color color;
     public Knight(Color couleur)
     {
         this.color = couleur;
@@ -21,9 +22,10 @@ public class Knight extends Piece{
     public List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY) {
         List<Tile> nonOccupedTiles = new ArrayList<Tile>();
 
-        // Le cavalier peut leap les autres pièces donc on a pas besoin de vérifier si la case est occupée ou non
+        // On décale de deux vers la droite
         for (int i = posX;i<=posX+2;i++)
         {
+            // On monte
             for (int j = posY;j>=posY-2;j--)
             {
                 if (i<=8 && j>=0) {
@@ -35,9 +37,10 @@ public class Knight extends Piece{
                 }
             }
         }
-
+        // on décale de deux vers la droite
         for (int k = posX;k<=posX+2;k++)
         {
+            // On descend
             for (int l = posY;l<=posY+2;l++)
             {
                 if (k<=8 && l<=8) {
@@ -49,9 +52,10 @@ public class Knight extends Piece{
                 }
             }
         }
-
+        // on décale de deux vers la gauche
         for (int m = posX;m>=posX-2;m--)
         {
+            // On descend
             for (int n = posY;n<=posY+2;n++)
             {
                 if (m>=0 && n<=8) {
@@ -64,8 +68,10 @@ public class Knight extends Piece{
             }
         }
 
+        // On décale de deux vers la gauche
         for (int o = posX;o>=posX-2;o--)
         {
+            // On monte
             for (int p = posY;p>=posY-2;p--)
             {
                 if (o>=0 && p>=0) {
@@ -77,7 +83,6 @@ public class Knight extends Piece{
                 }
             }
         }
-
         return nonOccupedTiles;
     }
 }

@@ -1,88 +1,95 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-abstract class ChessGame
-{
-     + frame : JFrame
-     + players : List<Player>
-     + ChessGame(frame : JFrame, listPlayers : List<Player>)
-}
-
 class Player {
     + namePlayer : String
-    + pieceList : List<Piece>
-    + nbPieces = 16 : Integer
-    + colorOfPiece : String
-    + score = 0 : Integer
-    + Player(name : String,pieceList : List<Piece>,color : String)
+    + lostPieces : List<Piece>
+    + colorOfPiece : Color
+    + <<Create>> Player(name : String, color : Color)
 }
 
 
 abstract class Piece
 {
-    + posX : String
-    + posY : Integer
-    + <<Create>> Piece(posX : String, posY : Integer)
-    + changePosition(posX : String, posY : Integer)
+    + <<Create>> Piece(posX : Integer, posY : Integer)
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class PieceFactory
 {
     + <<Create>> PieceFactory()
-    + createRook(posX : String, posY : Integer) : Rook
-    + createKnight(posX : String, posY : Integer) : Knight
-    + createBishop(posX : String, posY : Integer) : Bishop
-    + createQueen(posX : String, posY : Integer) : Queen
-    + createKing(posX : String, posY : Integer) : King
-    + createPawn(posX : String, posY : Integer) : Pawn
+    + createRook(posX : Integer, posY : Integer) : Rook
+    + createKnight(posX : Integer, posY : Integer) : Knight
+    + createBishop(posX : Integer, posY : Integer) : Bishop
+    + createQueen(posX : Integer, posY : Integer) : Queen
+    + createKing(posX : Integer, posY : Integer) : King
+    + createPawn(posX : Integer, posY : Integer) : Pawn
+}
+
+class Tile
+{
+    - piece : Piece
+    - posX : Integer
+    - posY : Integer
+    + <<Create>> Tile(piece : Piece)
+    + isOccuped() : Boolean
+    + setPiece(piece : Piece)
+}
+
+class Board
+{
+    - tiles : Tile[][]
+    - pf : PieceFactory
+    + <<Create>> Board()
+    + initPieces()
 }
 
 class Rook
 {
-   + posX : String
-   + posY : Integer
+   - color : Color
    + Rook()
-   + changePosition(posX : String, posY : Integer)
+   + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Knight
 {
-    + posX : String
-    + posY : Integer
+    - color : Color
     + Knight()
-    + changePosition(posX : String, posY : Integer)
+     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Bishop
 {
-    + posX : String
-    + posY : Integer
+    - color : Color
     + Bishop()
-    + changePosition(posX : String, posY : Integer)
+     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Queen
 {
-    + posX : String
-    + posY : Integer
+    - color : Color
     + Queen()
-    + changePosition(posX : String, posY : Integer)
+     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class King
 {
-    + posX : String
-    + posY : Integer
+    - color : Color
     + King()
-    + changePosition(posX : String, posY : Integer)
+     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Pawn
 {
-    + posX : String
-    + posY : Integer
+    - color : Color
     + Pawn()
-    + changePosition(posX : String, posY : Integer)
+     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+}
+
+Enum Color
+{
+    BLACK,
+    WHITE
 }
 
 Piece -.> "implements" Piece
@@ -102,7 +109,19 @@ Queen --|> Piece
 King --|> Piece
 Pawn --|> Piece
 
-ChessGame *--> "play to  2 players" Player
+Rook -.> "use" Color
+Knight -.> "use" Color
+Bishop -.> "use" Color
+Queen -.> "use"  Color
+King -.> "use" Color
+Pawn -.> "use"  Color
+Player -.> "use" Color
+
+Board -.> "use" Tile
+Board -.> "use" PieceFactory
+
+Tile -.> "use" Piece
+
 Player *--> "play with 16" Piece
 
 

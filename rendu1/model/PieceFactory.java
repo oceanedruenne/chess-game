@@ -1,13 +1,12 @@
 public class PieceFactory {
 
-    public String posX;
-    public int posY;
+
     public PieceFactory()
     {
 
     }
 
-    public Rook createRook( String couleur)
+    public Rook createRook(Color couleur)
     {
         return new Rook(couleur);
     }
@@ -22,7 +21,7 @@ public class PieceFactory {
         return new Bishop(couleur);
     }
 
-    public Queen createQueen(String couleur)
+    public Queen createQueen(Color couleur)
     {
         return new Queen(couleur);
     }
@@ -32,7 +31,7 @@ public class PieceFactory {
         return new King(couleur);
     }
 
-    public Pawn createPawn(String couleur)
+    public Pawn createPawn(Color couleur)
     {
         return new Pawn(couleur);
     }

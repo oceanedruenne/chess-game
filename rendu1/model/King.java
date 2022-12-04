@@ -4,7 +4,7 @@ import java.util.List;
 
 // ROI
 public class King extends Piece {
-    public Color color;
+    private Color color;
     public King(Color couleur)
     {
         this.color = couleur;
@@ -35,6 +35,5 @@ public class King extends Piece {
            }
        }
        return nonOccupedTiles;
-
    }
 }

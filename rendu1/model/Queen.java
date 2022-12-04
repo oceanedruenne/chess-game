@@ -1,18 +1,28 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// REINE
 public class Queen extends Piece{
 
-    public String color;
-    public Queen(String couleur)
+    private Color color;
+    public Queen(Color couleur)
     {
         this.color = couleur;
     }
 
+    /* getLevalMoves : List<Tile>
+     * Paramètres : Tile[][] tiles, int posX, int posY
+     * Variables locales : List<Tile> nonOccupedTiles
+     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le fou
+     * depuis sa position
+     * */
     @Override
     public List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY) {
         List<Tile> nonOccupedTiles = new ArrayList<Tile>();
 
+        /* LA REINE AYANT LES MOUVEMENTS COMBINÉS DE LA TOUR ET DU FOU
+        *  PAR CONSÉQUENT, ON COMBINE LES BOUCLES DE VÉRIFICATION DES
+        *  CLASSES BISHOP ET ROOK */
         for (int i = posX; i >= 0; i--) {
             if (i>=0) {
                 if (tiles[i][posY].isOccuped()) {

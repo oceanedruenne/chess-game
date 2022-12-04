@@ -1,17 +1,17 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
 
-    public String namePlayer;
-    public List<Piece> pieceList;
-    public int nbPieces = 16;
-    public String colorOfPieces;
-    public int score = 0;
+    private String namePlayer;
+    private List<Piece> lostPieces;
+    private Color colorOfPieces;
 
-    public Player(String nom,List<Piece> listPieces, String colorOfPieces)
+
+    public Player(String nom, Color colorOfPieces)
     {
         this.namePlayer = nom;
-        this.pieceList = listPieces;
+        this.lostPieces = new ArrayList<Piece>();
         this.colorOfPieces = colorOfPieces;
     }
 }

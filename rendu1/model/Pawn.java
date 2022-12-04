@@ -1,24 +1,31 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// PION
 public class Pawn extends Piece{
 
-    public String color;
+    private Color color;
     public boolean moved = false;
 
-    public Pawn(String couleur)
+    public Pawn(Color couleur)
     {
         this.color = couleur;
     }
 
-    public void changePosition(String posX, int posY) {
-
-    }
-
+    /* getLevalMoves : List<Tile>
+     * Paramètres : Tile[][] tiles, int posX, int posY
+     * Variables locales : List<Tile> nonOccupedTiles
+     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le fou
+     * depuis sa position
+     * */
     @Override
     public List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY) {
         List<Tile> nonOccupedTiles = new ArrayList<Tile>();
 
+        /* Si le pion n'a jamais bougé, cela veut dire qu'il est à sa place initiale. La règle des échecs indique
+        * que lorsque le pion bouge pour la première fois, il peut bouger de 2 cases, et lors de ses prochains
+        * mouvements, il ne bougera que d'une case.
+         */
         if (moved == false)
         {
             for (int i = posY;i<=posY+2;i++)
@@ -33,6 +40,7 @@ public class Pawn extends Piece{
                 }
             }
         }
+        /* Dans ce cas, le pion a déjà bougé. Par conséquent, il ne peut qu'avancer de 1.*/
         else
         {
             for (int j = posY;j<=posY+1;j++)
@@ -46,7 +54,6 @@ public class Pawn extends Piece{
                 }
             }
         }
-
         return nonOccupedTiles;
     }
 }
