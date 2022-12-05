@@ -2,6 +2,7 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class ChessBoard extends JFrame {
     private final JPanel[][] tiles;
@@ -33,6 +34,7 @@ public class ChessBoard extends JFrame {
         //JLabel blackRook = new JLabel(new ImageIcon(black_rook));
         // blackRook.setSize(64,64);
         //tiles[0][0].add(blackRook);
+
 
         JLabel blackRook = new JLabel("T");
         blackRook.setFont(new Font("Arial",Font.BOLD,30));
@@ -121,6 +123,32 @@ public class ChessBoard extends JFrame {
             whitePawn.setForeground(Color.WHITE);
             tiles[6][i].add(whitePawn);
         }
+
+        MouseListener listener = new MouseListener() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+               tiles[7][7].setBackground(Color.cyan);
+            }
+
+           @Override
+            public void mousePressed(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseReleased(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+            }
+        };
 
     }
 }
