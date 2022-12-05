@@ -1,3 +1,5 @@
+package model;
+
 // CLASSE CASE
 public class Tile {
 

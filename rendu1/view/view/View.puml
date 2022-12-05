@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ChessBoard
+{
+    - tiles : JPanel[][]
+    + dimensions : Dimension
+    + b : JPanel
+}
+
+class JFrame
+{
+}
+
+ChessBoard --|> "use  " JFrame
+
+@enduml

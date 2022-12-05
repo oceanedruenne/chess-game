@@ -46,11 +46,24 @@ Travail réalisé entre deux séances de TP :
     - Utilisation de la PieceFactory
     - Changement de la portée des attributs, passant de public à private
 
-RESTE À FAIRE :
-→ SI LA CASE EST OCCUPÉE, EST-ELLE OCCUPÉE PAR UNE PIÈCE DE LA MÊME COULEUR QUE CELLE JOUÉE ?
-- Si oui, on ne fait rien
-- Sinon, on vérifie si la pièce peut être leapée. Si c'est le cas, on retire la pièce leapée et on incrémente le score du joueur
 
-→ DIAGRAMMES UML
+Séance de TP du Lundi 5 Décembre 2022 :
+
+    - Ajout des diagrammes de classe UML View et Controller
+    - Ajout de packages model, view, controller
+    - Ajout de l'interface Observer et de la classe ObserverPiece
+    - Ajout d'une liste d'ObserverPiece et de fonctions relatives à celle-ci dans la classe Piece
+
+RESTE À FAIRE :
+
+    → SI LA CASE EST OCCUPÉE, EST-ELLE OCCUPÉE PAR UNE PIÈCE DE LA MÊME COULEUR QUE CELLE JOUÉE ?
+        - Si oui, on ne fait rien
+        - Sinon, on vérifie si la pièce peut être leapée. Si c'est le cas, on retire la pièce leapée et on incrémente le score du joueur
+
+    → Ajouter une fonction move pour bouger la pièce
+    → Trouver comment placer les images sur le model
+    → Comment faire le lien entre le déplacement de ma pièce sur le model et celui dans le controller ?
+
+
 
 

@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Observer
+{
+    +update(piece : Piece)
+}
+
+class ObserverPiece
+{
+    +update(piece : Piece)
+}
+
+abstract class Piece
+{
+    + <<Create>> Piece(posX : Integer, posY : Integer)
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+    + addObserver(observerPiece : ObserverPiece)
+    + notifyObservers()
+}
+
+Piece *--> "observe " Observer
+ObserverPiece -.|> "use    " Observer
+
+@enduml
