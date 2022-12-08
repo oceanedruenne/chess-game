@@ -2,6 +2,8 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 public class ChessBoard extends JFrame {
     private final JPanel[][] tiles;
@@ -120,6 +122,38 @@ public class ChessBoard extends JFrame {
             whitePawn.setFont(new Font("Arial",Font.BOLD,30));
             whitePawn.setForeground(Color.WHITE);
             tiles[6][i].add(whitePawn);
+        }
+
+        MouseListener listener = new MouseListener() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mousePressed(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseReleased(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+
+            }
+        };
+        for (int i = 0;i<tiles.length;i++) {
+            for (int j = 0; j < tiles.length; j++) {
+                tiles[i][j].addMouseListener(listener);
+            }
         }
 
     }

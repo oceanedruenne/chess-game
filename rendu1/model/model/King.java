@@ -7,6 +7,8 @@ import java.util.List;
 // ROI
 public class King extends Piece {
     private Color color;
+    private boolean isThreatened;
+    private boolean isBlocked;
     public King(Color couleur)
     {
         this.color = couleur;

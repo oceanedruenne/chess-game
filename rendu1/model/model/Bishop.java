@@ -7,7 +7,7 @@ import java.util.List;
 // FOU
 public class Bishop extends Piece {
 
-    public Color couleur; // Attribut public de type Couleur (Énumération)
+    private Color couleur; // Attribut public de type Couleur (Énumération)
 
     // CONSTRUCTEUR
     public Bishop(Color couleur)

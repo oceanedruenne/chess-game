@@ -2,10 +2,15 @@
 'https://plantuml.com/class-diagram
 
 class Player {
-    + namePlayer : String
-    + lostPieces : List<Piece>
-    + colorOfPiece : Color
+    - namePlayer : String
+    - lostPieces : List<Piece>
+    - colorOfPiece : Color
+    - played : Boolean
     + <<Create>> Player(name : String, color : Color)
+    + getPlayerName() : String
+    + getLostPieces() : List<Piece>
+    + removeLostPieces(piece : Piece)
+    + getColorPieces() : Color
 }
 
 
@@ -31,9 +36,14 @@ class Tile
     - piece : Piece
     - posX : Integer
     - posY : Integer
+    - isClicked : Boolean
     + <<Create>> Tile(piece : Piece)
     + isOccuped() : Boolean
     + setPiece(piece : Piece)
+    + getIsClicked() : Boolean
+    + setIsClicked(posX : Integer, posY : Integer)
+    + unsetIsClicked(posX : Integer, posY : Integer)
+    + getPieceType(posX : Integer, posY : Integer) : Piece
 }
 
 class Board
@@ -42,48 +52,54 @@ class Board
     - pf : PieceFactory
     + <<Create>> Board()
     + initPieces()
+    + clickedOnTile(posX : Integer, posY : Integer)
+    + getTile(posX : Integer, posY : Integer)
+    + clickedOnTile(posX : Integer, posY : Integer)
+    + unclickedOnTile(posX : Integer, posY : Integer)
 }
 
 class Rook
 {
    - color : Color
-   + Rook()
+   + <<Create>> Rook()
    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Knight
 {
     - color : Color
-    + Knight()
-     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+    + <<Create>> Knight()
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Bishop
 {
     - color : Color
-    + Bishop()
-     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+    + <<Create>> Bishop()
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Queen
 {
     - color : Color
-    + Queen()
-     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+    + <<Create>> Queen()
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class King
 {
     - color : Color
-    + King()
-     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+    - isThreatened : Boolean
+    - isBlocked : Boolean
+    + <<Create>> King()
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 class Pawn
 {
     - color : Color
-    + Pawn()
-     + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
+    + <<Create>> Pawn()
+    + getLegalMoves(tiles : Tile[][], posX : Integer, posY : Integer) : List<Tile>
 }
 
 Enum Color
@@ -92,6 +108,21 @@ Enum Color
     WHITE
 }
 
+class Game
+{
+    - board : Board
+    - players : List<Player>
+    - currentPlayer : Player
+    + <<Create>> Game(board : Board, whitePlayer : Player, blackPlayer : Player)
+    + tileClicked(posX : Integer, posY : Integer)
+    + tileUnclicked(posX : Integer, posY : Integer)
+    + getNextPlayer(currentPlayer : Player)
+    + nextRound()
+    + kingIsThreatened()
+    + KingIsBlocked()
+    + checkMate()
+
+}
 Piece -.> "implements" Piece
 Piece -.> "use" PieceFactory
 PieceFactory -.> "use" Piece
@@ -101,6 +132,9 @@ PieceFactory -.> "use" Bishop
 PieceFactory -.> "use" Queen
 PieceFactory -.> "use" King
 PieceFactory -.> "use" Pawn
+
+Game -.> "use" Board
+Game -.> "use" Player
 
 Rook --|> Piece
 Knight --|> Piece

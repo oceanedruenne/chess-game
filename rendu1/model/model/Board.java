@@ -45,4 +45,11 @@ public class Board {
     }
 
 
+    public void clickedOnTile(int posX, int posY) {
+        this.tiles[posX][posY].setIsClicked(posX,posY);
+    }
+
+    public void unclickedOnTile(int posX, int posY) {
+        this.tiles[posX][posY].unsetIsClicked(posX,posY);
+    }
 }

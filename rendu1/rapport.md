@@ -64,6 +64,11 @@ RESTE À FAIRE :
     → Trouver comment placer les images sur le model
     → Comment faire le lien entre le déplacement de ma pièce sur le model et celui dans le controller ?
 
+Séance de TP du Jeudi 8 Décembre 2022 :
+
+    - Ajout de fonctions et d'attributs dans les classes Tile, Board, Player, King
+    - Ajout d'une classe Game 
+    - Modification du diagramme de classes Model
 
 
 
