@@ -2,8 +2,12 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
+<<<<<<< HEAD
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+=======
+import java.awt.event.*;
+>>>>>>> 4a8f132a6af20a8bbddcfccb9f7f7242cd186853
 
 public class ChessBoard extends JFrame {
     private final JPanel[][] tiles;
@@ -35,6 +39,7 @@ public class ChessBoard extends JFrame {
         //JLabel blackRook = new JLabel(new ImageIcon(black_rook));
         // blackRook.setSize(64,64);
         //tiles[0][0].add(blackRook);
+
 
         JLabel blackRook = new JLabel("T");
         blackRook.setFont(new Font("Arial",Font.BOLD,30));
@@ -127,10 +132,17 @@ public class ChessBoard extends JFrame {
         MouseListener listener = new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
+<<<<<<< HEAD
 
             }
 
             @Override
+=======
+               tiles[7][7].setBackground(Color.cyan);
+            }
+
+           @Override
+>>>>>>> 4a8f132a6af20a8bbddcfccb9f7f7242cd186853
             public void mousePressed(MouseEvent e) {
 
             }
@@ -147,6 +159,7 @@ public class ChessBoard extends JFrame {
 
             @Override
             public void mouseExited(MouseEvent e) {
+<<<<<<< HEAD
 
             }
         };
@@ -155,6 +168,10 @@ public class ChessBoard extends JFrame {
                 tiles[i][j].addMouseListener(listener);
             }
         }
+=======
+            }
+        };
+>>>>>>> 4a8f132a6af20a8bbddcfccb9f7f7242cd186853
 
     }
 }

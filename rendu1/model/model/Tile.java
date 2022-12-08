@@ -30,6 +30,7 @@ public class Tile {
         this.piece = piece;
     }
 
+<<<<<<< HEAD
     public boolean getisClicked()
     {
         return this.isClicked;
@@ -60,4 +61,7 @@ public class Tile {
         return piece;
     }
 
+=======
+    public Piece getPiece() { return this.piece; }
+>>>>>>> 4a8f132a6af20a8bbddcfccb9f7f7242cd186853
 }
