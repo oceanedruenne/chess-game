@@ -3,15 +3,23 @@
 
 class ChessBoard
 {
-    - tiles : JPanel[][]
-    + dimensions : Dimension
-    + b : JPanel
+    - TILES : JPanel[][] {readOnly}
+    - observer : IViewObserver
+    - leapedWhitePieces : JPanel
+    - leapedBlackPieces : JPanel
+    + <<Create>> ChessBoard(game : Game)
+
 }
 
-class JFrame
+class MainMenu
 {
 }
 
-ChessBoard --|> "use  " JFrame
+interface IViewObserver
+{
+}
+
+ChessBoard *--> "implements" IViewObserver
+
 
 @enduml

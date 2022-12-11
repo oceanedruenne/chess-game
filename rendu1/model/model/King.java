@@ -6,19 +6,21 @@ import java.util.List;
 
 // ROI
 public class King extends Piece {
-    private Color color;
-    private boolean isThreatened;
-    private boolean isBlocked;
+
+    private boolean isChecked;
+    private boolean isCheckedMate;
+
+    // CONSTRUCTEUR
     public King(Color couleur)
     {
         this.color = couleur;
     }
 
 
-    /* getLevalMoves : List<Tile>
+    /* getLegalMoves : List<Tile>
      * Paramètres : Tile[][] tiles, int posX, int posY
      * Variables locales : List<Tile> nonOccupedTiles
-     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le fou
+     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le roi
      * depuis sa position
      * */
    @Override
@@ -39,5 +41,39 @@ public class King extends Piece {
            }
        }
        return nonOccupedTiles;
+   }
+
+    /* getIsChecked : boolean
+     * Cette fonction est un getter : elle permet de renvoyer l'attribut privé isChecked
+     * */
+   public boolean getisChecked()
+   {
+       return this.isChecked;
+   }
+
+    /* getIsCheckedMate : boolean
+     * Cette fonction est un getter : elle permet de renvoyer l'attribut privé isCheckedMate
+     * */
+   public boolean getisCheckedMate()
+   {
+       return this.isCheckedMate;
+   }
+
+    /* setChecked :
+     * Paramètres : boolean isChecked
+     * Cette fonction est un setter : elle permet de modifier l'attribut isChecked
+     * */
+   public void setChecked(boolean isChecked)
+   {
+       this.isChecked = isChecked;
+   }
+
+    /* setCheckedMate :
+     * Paramètres : boolean isCheckedMate
+     * Cette fonction est un setter : elle permet de modifier l'attribut isCheckedMate
+     * */
+   public void setCheckedMate(boolean isCheckedMate)
+   {
+       this.isCheckedMate = isCheckedMate;
    }
 }

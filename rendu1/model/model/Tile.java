@@ -3,16 +3,16 @@ package model;
 // CLASSE CASE
 public class Tile {
 
-    private Piece piece; // Attribut pièce qui permet de mettre une pièce sur une case
+    private Piece piece;
     private int posX;
     private int posY;
     private boolean isClicked = false;
 
     // CONSTRUCTEUR
-    public Tile(Piece piece)
+    public Tile()
     {
-        this.piece = piece;
     }
+
     /* isOccuped : boolean
      * Cette fonction permet de vérifier si une case est occupée par une pièce ou non
      */
@@ -30,38 +30,48 @@ public class Tile {
         this.piece = piece;
     }
 
-<<<<<<< HEAD
+    /* getIsClicked : boolean
+     * Cette fonction est un getter : Elle permet de renvoyer l'attribut privé isClicked
+     */
     public boolean getisClicked()
     {
         return this.isClicked;
     }
 
-    public void setIsClicked(int posX, int posY)
+    /* setIsClicked :
+     * Paramètre : boolean isClicked
+     * Cette fonction est un setter : Elle permet d'attribuer une valeur à l'attribut isClicked, passé en paramètre.
+     */
+    public void setIsClicked(boolean isClicked)
     {
-        if (this.posX == posX && this.posY == posY)
-        {
-            this.isClicked = true;
-        }
+        this.isClicked = isClicked;
     }
 
-    public void unsetIsClicked(int posX, int posY)
-    {
-        if (this.posX == posX && this.posY == posY)
-        {
-            this.isClicked = false;
-        }
-    }
 
-    public Piece getPieceType(int posX, int posY)
-    {
-        if (this.posX == posX && this.posY == posY)
-        {
-            Piece piece = this.piece;
-        }
-        return piece;
-    }
-
-=======
+    /* getPiece : Piece
+     * Cette fonction est un getter : Elle permet de renvoyer une pièce
+     */
     public Piece getPiece() { return this.piece; }
->>>>>>> 4a8f132a6af20a8bbddcfccb9f7f7242cd186853
+
+    /* getPosX : int
+     * Cette fonction est un getter : Elle permet de renvoyer la position X de la case
+     */
+    public int getPosX() { return this.posX; }
+
+    /* getPosY : int
+     * Cette fonction est un getter : Elle permet de renvoyer la position Y de la case
+     */
+    public int getPosY() { return this.posY; }
+
+    /* setPosX :
+     * Paramètre : int posX
+     * Cette fonction est un setter : Elle permet d'attribuer une valeur à l'attribut posX, passé en paramètre.
+     */
+    public void setPosX(int posX) { this.posX = posX; }
+
+    /* setPosY :
+     * Paramètre : int posY
+     * Cette fonction est un setter : Elle permet d'attribuer une valeur à l'attribut posY, passé en paramètre.
+     */
+    public void setPosY(int posY) { this.posY = posY; }
 }

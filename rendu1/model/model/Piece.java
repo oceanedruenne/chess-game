@@ -1,28 +1,25 @@
 package model;
 
-
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Piece {
 
-<<<<<<< HEAD
+    protected Color color;
 
-
-    public Piece()
+    /* getColor : Color
+     * Cette fonction est un getter : elle permet de renvoyer l'attribut privé color
+     * */
+    public Color getColor()
     {
-
+        return this.color;
     }
 
+    /* getLegalMoves : List<Tile>
+     * Paramètres : Tile[][] tiles, int posX, int posY
+     * Variables locales : List<Tile> nonOccupedTiles
+     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour la pièce
+     * depuis sa position
+     * */
     public abstract List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY);
 
-=======
-
-    public Piece()
-    {
-
-    }
-
-    public abstract List<Tile> getLegalMoves(Tile[][] tiles, int posX, int posY);
->>>>>>> 4a8f132a6af20a8bbddcfccb9f7f7242cd186853
 }

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1518px" preserveAspectRatio="none" style="width:3197px;height:1518px;background:#FFFFFF;" version="1.1" viewBox="0 0 3197 1518" width="3197px" zoomAndPan="magnify"><defs/><g><rect fill="#DDDDDD" height="76.5625" id="_legend" rx="7.5" ry="7.5" style="stroke:#000000;stroke-width:1.0;" width="166" x="1508.575" y="12"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1517.575" y="31.6738">Couleur</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1579.575" y="31.6738">Signification</text><rect fill="#0000FF" height="15.6406" style="stroke:none;stroke-width:1.0;" width="62" x="1513.575" y="34.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1513.575" y="47.3145"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1583.575" y="47.3145">Agrégation</text><rect fill="#008000" height="15.6406" style="stroke:none;stroke-width:1.0;" width="62" x="1513.575" y="50.2813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1513.575" y="62.9551"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1583.575" y="62.9551">Composition</text><rect fill="#FF0000" height="15.6406" style="stroke:none;stroke-width:1.0;" width="62" x="1513.575" y="65.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1513.575" y="78.5957"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1583.575" y="78.5957">Extension</text><line style="stroke:#000000;stroke-width:1.0;" x1="1513.575" x2="1669.575" y1="19" y2="19"/><line style="stroke:#000000;stroke-width:1.0;" x1="1513.575" x2="1669.575" y1="34.6406" y2="34.6406"/><line style="stroke:#000000;stroke-width:1.0;" x1="1513.575" x2="1669.575" y1="50.2813" y2="50.2813"/><line style="stroke:#000000;stroke-width:1.0;" x1="1513.575" x2="1669.575" y1="65.9219" y2="65.9219"/><line style="stroke:#000000;stroke-width:1.0;" x1="1513.575" x2="1669.575" y1="81.5625" y2="81.5625"/><line style="stroke:#000000;stroke-width:1.0;" x1="1513.575" x2="1513.575" y1="19" y2="81.5625"/><line style="stroke:#000000;stroke-width:1.0;" x1="1575.575" x2="1575.575" y1="19" y2="81.5625"/><line style="stroke:#000000;stroke-width:1.0;" x1="1669.575" x2="1669.575" y1="19" y2="81.5625"/><!--MD5=[449cd079d44679d193659f94873ba755]
+class Bishop--><g id="elem_Bishop"><rect codeLine="12" fill="#F1F1F1" height="79.2813" id="Bishop" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="1477.65" y="1222.5625"/><ellipse cx="1658.9" cy="1238.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1661.6656,1234.4375 Q1661.8219,1234.2188 1662.0094,1234.1094 Q1662.1969,1234 1662.4156,1234 Q1662.7906,1234 1663.025,1234.2656 Q1663.2594,1234.5156 1663.2594,1235.125 L1663.2594,1236.5781 Q1663.2594,1237.1875 1663.025,1237.4531 Q1662.7906,1237.7188 1662.4156,1237.7188 Q1662.0719,1237.7188 1661.8688,1237.5156 Q1661.6656,1237.3281 1661.5563,1236.8125 Q1661.5094,1236.4531 1661.3219,1236.2656 Q1660.9938,1235.8906 1660.3844,1235.6719 Q1659.775,1235.4531 1659.15,1235.4531 Q1658.3844,1235.4531 1657.7438,1235.7813 Q1657.1188,1236.1094 1656.6188,1236.8594 Q1656.1344,1237.6094 1656.1344,1238.6406 L1656.1344,1239.7344 Q1656.1344,1240.9688 1657.025,1241.7969 Q1657.9156,1242.6094 1659.5094,1242.6094 Q1660.4469,1242.6094 1661.1031,1242.3594 Q1661.4938,1242.2031 1661.9156,1241.7656 Q1662.1813,1241.5 1662.3219,1241.4219 Q1662.4781,1241.3438 1662.6813,1241.3438 Q1663.0094,1241.3438 1663.2594,1241.6094 Q1663.525,1241.8594 1663.525,1242.2031 Q1663.525,1242.5469 1663.1813,1242.9531 Q1662.6813,1243.5313 1661.8844,1243.8594 Q1660.8063,1244.3125 1659.5094,1244.3125 Q1657.9938,1244.3125 1656.7906,1243.6875 Q1655.8063,1243.1875 1655.1188,1242.125 Q1654.4313,1241.0469 1654.4313,1239.7656 L1654.4313,1238.6094 Q1654.4313,1237.2813 1655.0406,1236.1406 Q1655.6656,1234.9844 1656.7594,1234.375 Q1657.8531,1233.75 1659.0875,1233.75 Q1659.8219,1233.75 1660.4625,1233.9219 Q1661.1188,1234.0781 1661.6656,1234.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="1679.4" y="1243.416">Bishop</text><line style="stroke:#181818;stroke-width:0.5;" x1="1478.65" x2="1890.65" y1="1254.5625" y2="1254.5625"/><line style="stroke:#181818;stroke-width:0.5;" x1="1478.65" x2="1890.65" y1="1262.5625" y2="1262.5625"/><ellipse cx="1488.65" cy="1275.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="1497.65" y="1279.2363">«Create» Bishop(couleur : Color)</text><ellipse cx="1488.65" cy="1291.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="1497.65" y="1294.877">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text></g><!--MD5=[9563755d011c5cec7ec66dc53565a59e]
+class Board--><g id="elem_Board"><rect codeLine="18" fill="#F1F1F1" height="313.8906" id="Board" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="419" x="1943.15" y="466.5625"/><ellipse cx="2129.4" cy="482.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2132.1656,478.4375 Q2132.3219,478.2188 2132.5094,478.1094 Q2132.6969,478 2132.9156,478 Q2133.2906,478 2133.525,478.2656 Q2133.7594,478.5156 2133.7594,479.125 L2133.7594,480.5781 Q2133.7594,481.1875 2133.525,481.4531 Q2133.2906,481.7188 2132.9156,481.7188 Q2132.5719,481.7188 2132.3688,481.5156 Q2132.1656,481.3281 2132.0563,480.8125 Q2132.0094,480.4531 2131.8219,480.2656 Q2131.4938,479.8906 2130.8844,479.6719 Q2130.275,479.4531 2129.65,479.4531 Q2128.8844,479.4531 2128.2438,479.7813 Q2127.6188,480.1094 2127.1188,480.8594 Q2126.6344,481.6094 2126.6344,482.6406 L2126.6344,483.7344 Q2126.6344,484.9688 2127.525,485.7969 Q2128.4156,486.6094 2130.0094,486.6094 Q2130.9469,486.6094 2131.6031,486.3594 Q2131.9938,486.2031 2132.4156,485.7656 Q2132.6813,485.5 2132.8219,485.4219 Q2132.9781,485.3438 2133.1813,485.3438 Q2133.5094,485.3438 2133.7594,485.6094 Q2134.025,485.8594 2134.025,486.2031 Q2134.025,486.5469 2133.6813,486.9531 Q2133.1813,487.5313 2132.3844,487.8594 Q2131.3063,488.3125 2130.0094,488.3125 Q2128.4938,488.3125 2127.2906,487.6875 Q2126.3063,487.1875 2125.6188,486.125 Q2124.9313,485.0469 2124.9313,483.7656 L2124.9313,482.6094 Q2124.9313,481.2813 2125.5406,480.1406 Q2126.1656,478.9844 2127.2594,478.375 Q2128.3531,477.75 2129.5875,477.75 Q2130.3219,477.75 2130.9625,477.9219 Q2131.6188,478.0781 2132.1656,478.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="2149.9" y="487.416">Board</text><line style="stroke:#181818;stroke-width:0.5;" x1="1944.15" x2="2361.15" y1="498.5625" y2="498.5625"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="508.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1963.15" y="515.2363">tiles : Tile[][]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="524.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="1963.15" y="530.877">pf : PieceFactory</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="540.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1963.15" y="546.5176">blackKing : King</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="555.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1963.15" y="562.1582">whiteKing : King</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="571.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1963.15" y="577.7988">selectedTile : Tile</text><line style="stroke:#181818;stroke-width:0.5;" x1="1944.15" x2="2361.15" y1="584.7656" y2="584.7656"/><ellipse cx="1954.15" cy="598.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1963.15" y="601.4395">«Create» Board()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="610.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1963.15" y="617.0801">initPieces()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="626.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1963.15" y="632.7207">initTiles()</text><ellipse cx="1954.15" cy="645.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="393" x="1963.15" y="648.3613">clickedOnTile(posX : int, posY : int, colorCurrentPlayer : Color)</text><ellipse cx="1954.15" cy="660.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="1963.15" y="664.002">kingIsChecked(kingTile : Tile) : boolean</text><ellipse cx="1954.15" cy="676.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="1963.15" y="679.6426">KingIsCheckedMate(kingTile : Tile)</text><ellipse cx="1954.15" cy="691.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="1963.15" y="695.2832">simulateMove(src: Tile, dest : Tile)</text><ellipse cx="1954.15" cy="707.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="1963.15" y="710.9238">canMoveTo(src : Tile, dest : Tile) : boolean</text><ellipse cx="1954.15" cy="723.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="1963.15" y="726.5645">tileIsEmpty(tile : Tile) : boolean</text><ellipse cx="1954.15" cy="738.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="1963.15" y="742.2051">move(src : Tile, dest : Tile, colorCurrentPlayer : Color) : Piece</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1951.15" y="751.4922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="1963.15" y="757.8457">getKingTile(king : King) : Tile</text><ellipse cx="1954.15" cy="770.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="1963.15" y="773.4863">getSelectedTile() : Tile</text></g><!--MD5=[18eee71c88ab61f27581b8cbdd3ef5ee]
+class Color--><g id="elem_Color"><rect codeLine="39" fill="#F1F1F1" height="79.2813" id="Color" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="66" x="1651.65" y="1424.5625"/><ellipse cx="1666.65" cy="1440.5625" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1665.5094,1441.3594 L1665.5094,1443.8594 L1669.8375,1443.8594 L1669.8375,1442.9375 Q1669.8375,1442.3281 1670.0719,1442.0625 Q1670.3219,1441.7969 1670.6969,1441.7969 Q1671.0719,1441.7969 1671.3063,1442.0625 Q1671.5406,1442.3281 1671.5406,1442.9375 L1671.5406,1445.5625 L1663.5406,1445.5625 Q1662.9156,1445.5625 1662.65,1445.3281 Q1662.4,1445.0938 1662.4,1444.7031 Q1662.4,1444.3281 1662.6656,1444.0938 Q1662.9313,1443.8594 1663.5406,1443.8594 L1663.8063,1443.8594 L1663.8063,1437.2031 L1663.5406,1437.2031 Q1662.9156,1437.2031 1662.65,1436.9688 Q1662.4,1436.7344 1662.4,1436.3438 Q1662.4,1435.9688 1662.65,1435.7344 Q1662.9156,1435.5 1663.5406,1435.5 L1671.1656,1435.5 L1671.1656,1438.0938 Q1671.1656,1438.7031 1670.9313,1438.9688 Q1670.7125,1439.2188 1670.3219,1439.2188 Q1669.9469,1439.2188 1669.7125,1438.9688 Q1669.4781,1438.7031 1669.4781,1438.0938 L1669.4781,1437.2031 L1665.5094,1437.2031 L1665.5094,1439.6563 L1666.9938,1439.6563 Q1666.9938,1439 1667.1188,1438.8125 Q1667.3844,1438.4063 1667.8531,1438.4063 Q1668.2281,1438.4063 1668.4625,1438.6719 Q1668.6969,1438.9219 1668.6969,1439.5313 L1668.6969,1441.5 Q1668.6969,1442.0469 1668.5719,1442.2344 Q1668.3063,1442.625 1667.8531,1442.625 Q1667.3844,1442.625 1667.1188,1442.2188 Q1666.9938,1442.0313 1666.9938,1441.3594 L1665.5094,1441.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1680.65" y="1445.416">Color</text><line style="stroke:#181818;stroke-width:0.5;" x1="1652.65" x2="1716.65" y1="1456.5625" y2="1456.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1657.65" y="1473.2363">BLACK,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="1657.65" y="1488.877">WHITE</text><line style="stroke:#181818;stroke-width:0.5;" x1="1652.65" x2="1716.65" y1="1495.8438" y2="1495.8438"/></g><!--MD5=[b6dcce5e5ef3c84b0b048d11301373dd]
+class Game--><g id="elem_Game"><rect codeLine="45" fill="#F1F1F1" height="298.25" id="Game" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="460" x="2053.65" y="108.5625"/><ellipse cx="2260.4" cy="124.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2263.1656,120.4375 Q2263.3219,120.2188 2263.5094,120.1094 Q2263.6969,120 2263.9156,120 Q2264.2906,120 2264.525,120.2656 Q2264.7594,120.5156 2264.7594,121.125 L2264.7594,122.5781 Q2264.7594,123.1875 2264.525,123.4531 Q2264.2906,123.7188 2263.9156,123.7188 Q2263.5719,123.7188 2263.3688,123.5156 Q2263.1656,123.3281 2263.0563,122.8125 Q2263.0094,122.4531 2262.8219,122.2656 Q2262.4938,121.8906 2261.8844,121.6719 Q2261.275,121.4531 2260.65,121.4531 Q2259.8844,121.4531 2259.2438,121.7813 Q2258.6188,122.1094 2258.1188,122.8594 Q2257.6344,123.6094 2257.6344,124.6406 L2257.6344,125.7344 Q2257.6344,126.9688 2258.525,127.7969 Q2259.4156,128.6094 2261.0094,128.6094 Q2261.9469,128.6094 2262.6031,128.3594 Q2262.9938,128.2031 2263.4156,127.7656 Q2263.6813,127.5 2263.8219,127.4219 Q2263.9781,127.3438 2264.1813,127.3438 Q2264.5094,127.3438 2264.7594,127.6094 Q2265.025,127.8594 2265.025,128.2031 Q2265.025,128.5469 2264.6813,128.9531 Q2264.1813,129.5313 2263.3844,129.8594 Q2262.3063,130.3125 2261.0094,130.3125 Q2259.4938,130.3125 2258.2906,129.6875 Q2257.3063,129.1875 2256.6188,128.125 Q2255.9313,127.0469 2255.9313,125.7656 L2255.9313,124.6094 Q2255.9313,123.2813 2256.5406,122.1406 Q2257.1656,120.9844 2258.2594,120.375 Q2259.3531,119.75 2260.5875,119.75 Q2261.3219,119.75 2261.9625,119.9219 Q2262.6188,120.0781 2263.1656,120.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="2280.9" y="129.416">Game</text><line style="stroke:#181818;stroke-width:0.5;" x1="2054.65" x2="2512.65" y1="140.5625" y2="140.5625"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="150.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="2073.65" y="157.2363">board : Board</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="166.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2073.65" y="172.877">whitePlayer : Player</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="182.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="2073.65" y="188.5176">blackPlayer : Player</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="197.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="2073.65" y="204.1582">currentPlayer : Player</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="213.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="2073.65" y="219.7988">observer : IModelObserver</text><line style="stroke:#181818;stroke-width:0.5;" x1="2054.65" x2="2512.65" y1="226.7656" y2="226.7656"/><ellipse cx="2064.65" cy="240.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="434" x="2073.65" y="243.4395">«Create» Game(whitePlayerName : String, blackPlayerName : String)</text><ellipse cx="2064.65" cy="255.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="334" x="2073.65" y="259.0801">gameStarted(whiteName : String, blackName : String)</text><ellipse cx="2064.65" cy="271.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="2073.65" y="274.7207">tileClicked(posX : int, posY : int)</text><ellipse cx="2064.65" cy="287.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="2073.65" y="290.3613">NextPlayer()</text><ellipse cx="2064.65" cy="302.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="2073.65" y="306.002">nextRound()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="315.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="2073.65" y="321.6426">notifyGameStarted()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="330.9297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="2073.65" y="337.2832">notifyTileSelected(tile : Tile)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="346.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="2073.65" y="352.9238">notifyMovedPiece(piece : Piece)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="362.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="2073.65" y="368.5645">notifyNextRound()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2061.65" y="377.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="2073.65" y="384.2051">notifyEndGame(couleur : Color)</text><ellipse cx="2064.65" cy="396.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="256" x="2073.65" y="399.8457">setObserver(observer : IModelObserver)</text></g><!--MD5=[76412a1b87b0f1c748604a3142aab9ae]
+class King--><g id="elem_King"><rect codeLine="66" fill="#F1F1F1" height="173.125" id="King" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="2375.65" y="1175.5625"/><ellipse cx="2564.4" cy="1191.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2567.1656,1187.4375 Q2567.3219,1187.2188 2567.5094,1187.1094 Q2567.6969,1187 2567.9156,1187 Q2568.2906,1187 2568.525,1187.2656 Q2568.7594,1187.5156 2568.7594,1188.125 L2568.7594,1189.5781 Q2568.7594,1190.1875 2568.525,1190.4531 Q2568.2906,1190.7188 2567.9156,1190.7188 Q2567.5719,1190.7188 2567.3688,1190.5156 Q2567.1656,1190.3281 2567.0563,1189.8125 Q2567.0094,1189.4531 2566.8219,1189.2656 Q2566.4938,1188.8906 2565.8844,1188.6719 Q2565.275,1188.4531 2564.65,1188.4531 Q2563.8844,1188.4531 2563.2438,1188.7813 Q2562.6188,1189.1094 2562.1188,1189.8594 Q2561.6344,1190.6094 2561.6344,1191.6406 L2561.6344,1192.7344 Q2561.6344,1193.9688 2562.525,1194.7969 Q2563.4156,1195.6094 2565.0094,1195.6094 Q2565.9469,1195.6094 2566.6031,1195.3594 Q2566.9938,1195.2031 2567.4156,1194.7656 Q2567.6813,1194.5 2567.8219,1194.4219 Q2567.9781,1194.3438 2568.1813,1194.3438 Q2568.5094,1194.3438 2568.7594,1194.6094 Q2569.025,1194.8594 2569.025,1195.2031 Q2569.025,1195.5469 2568.6813,1195.9531 Q2568.1813,1196.5313 2567.3844,1196.8594 Q2566.3063,1197.3125 2565.0094,1197.3125 Q2563.4938,1197.3125 2562.2906,1196.6875 Q2561.3063,1196.1875 2560.6188,1195.125 Q2559.9313,1194.0469 2559.9313,1192.7656 L2559.9313,1191.6094 Q2559.9313,1190.2813 2560.5406,1189.1406 Q2561.1656,1187.9844 2562.2594,1187.375 Q2563.3531,1186.75 2564.5875,1186.75 Q2565.3219,1186.75 2565.9625,1186.9219 Q2566.6188,1187.0781 2567.1656,1187.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="2584.9" y="1196.416">King</text><line style="stroke:#181818;stroke-width:0.5;" x1="2376.65" x2="2788.65" y1="1207.5625" y2="1207.5625"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2383.65" y="1217.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="2395.65" y="1224.2363">isChecked : boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2383.65" y="1233.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="2395.65" y="1239.877">isCheckedMate : boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="2376.65" x2="2788.65" y1="1246.8438" y2="1246.8438"/><ellipse cx="2386.65" cy="1260.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="2395.65" y="1263.5176">«Create» King(couleur : Color)</text><ellipse cx="2386.65" cy="1275.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="2395.65" y="1279.1582">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text><ellipse cx="2386.65" cy="1291.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="2395.65" y="1294.7988">getIsChecked() : boolean</text><ellipse cx="2386.65" cy="1307.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="2395.65" y="1310.4395">getIsCheckedMate() : boolean</text><ellipse cx="2386.65" cy="1322.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="2395.65" y="1326.0801">setChecked(isChecked : boolean)</text><ellipse cx="2386.65" cy="1338.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="276" x="2395.65" y="1341.7207">setCheckedMate(isCheckedMate : boolean)</text></g><!--MD5=[f12c1f668f765232aff110b8f6a6681d]
+class Knight--><g id="elem_Knight"><rect codeLine="78" fill="#F1F1F1" height="79.2813" id="Knight" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="1926.65" y="1222.5625"/><ellipse cx="2109.4" cy="1238.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2112.1656,1234.4375 Q2112.3219,1234.2188 2112.5094,1234.1094 Q2112.6969,1234 2112.9156,1234 Q2113.2906,1234 2113.525,1234.2656 Q2113.7594,1234.5156 2113.7594,1235.125 L2113.7594,1236.5781 Q2113.7594,1237.1875 2113.525,1237.4531 Q2113.2906,1237.7188 2112.9156,1237.7188 Q2112.5719,1237.7188 2112.3688,1237.5156 Q2112.1656,1237.3281 2112.0563,1236.8125 Q2112.0094,1236.4531 2111.8219,1236.2656 Q2111.4938,1235.8906 2110.8844,1235.6719 Q2110.275,1235.4531 2109.65,1235.4531 Q2108.8844,1235.4531 2108.2438,1235.7813 Q2107.6188,1236.1094 2107.1188,1236.8594 Q2106.6344,1237.6094 2106.6344,1238.6406 L2106.6344,1239.7344 Q2106.6344,1240.9688 2107.525,1241.7969 Q2108.4156,1242.6094 2110.0094,1242.6094 Q2110.9469,1242.6094 2111.6031,1242.3594 Q2111.9938,1242.2031 2112.4156,1241.7656 Q2112.6813,1241.5 2112.8219,1241.4219 Q2112.9781,1241.3438 2113.1813,1241.3438 Q2113.5094,1241.3438 2113.7594,1241.6094 Q2114.025,1241.8594 2114.025,1242.2031 Q2114.025,1242.5469 2113.6813,1242.9531 Q2113.1813,1243.5313 2112.3844,1243.8594 Q2111.3063,1244.3125 2110.0094,1244.3125 Q2108.4938,1244.3125 2107.2906,1243.6875 Q2106.3063,1243.1875 2105.6188,1242.125 Q2104.9313,1241.0469 2104.9313,1239.7656 L2104.9313,1238.6094 Q2104.9313,1237.2813 2105.5406,1236.1406 Q2106.1656,1234.9844 2107.2594,1234.375 Q2108.3531,1233.75 2109.5875,1233.75 Q2110.3219,1233.75 2110.9625,1233.9219 Q2111.6188,1234.0781 2112.1656,1234.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="2129.9" y="1243.416">Knight</text><line style="stroke:#181818;stroke-width:0.5;" x1="1927.65" x2="2339.65" y1="1254.5625" y2="1254.5625"/><line style="stroke:#181818;stroke-width:0.5;" x1="1927.65" x2="2339.65" y1="1262.5625" y2="1262.5625"/><ellipse cx="1937.65" cy="1275.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="1946.65" y="1279.2363">«Create» Knight(couleur : Color)</text><ellipse cx="1937.65" cy="1291.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="1946.65" y="1294.877">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text></g><!--MD5=[af29ca247b3a3642f0fb478cea99ef78]
+class Pawn--><g id="elem_Pawn"><rect codeLine="84" fill="#F1F1F1" height="110.5625" id="Pawn" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="130.65" y="1206.5625"/><ellipse cx="316.4" cy="1222.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M319.1656,1218.4375 Q319.3219,1218.2188 319.5094,1218.1094 Q319.6969,1218 319.9156,1218 Q320.2906,1218 320.525,1218.2656 Q320.7594,1218.5156 320.7594,1219.125 L320.7594,1220.5781 Q320.7594,1221.1875 320.525,1221.4531 Q320.2906,1221.7188 319.9156,1221.7188 Q319.5719,1221.7188 319.3688,1221.5156 Q319.1656,1221.3281 319.0563,1220.8125 Q319.0094,1220.4531 318.8219,1220.2656 Q318.4938,1219.8906 317.8844,1219.6719 Q317.275,1219.4531 316.65,1219.4531 Q315.8844,1219.4531 315.2438,1219.7813 Q314.6188,1220.1094 314.1188,1220.8594 Q313.6344,1221.6094 313.6344,1222.6406 L313.6344,1223.7344 Q313.6344,1224.9688 314.525,1225.7969 Q315.4156,1226.6094 317.0094,1226.6094 Q317.9469,1226.6094 318.6031,1226.3594 Q318.9938,1226.2031 319.4156,1225.7656 Q319.6813,1225.5 319.8219,1225.4219 Q319.9781,1225.3438 320.1813,1225.3438 Q320.5094,1225.3438 320.7594,1225.6094 Q321.025,1225.8594 321.025,1226.2031 Q321.025,1226.5469 320.6813,1226.9531 Q320.1813,1227.5313 319.3844,1227.8594 Q318.3063,1228.3125 317.0094,1228.3125 Q315.4938,1228.3125 314.2906,1227.6875 Q313.3063,1227.1875 312.6188,1226.125 Q311.9313,1225.0469 311.9313,1223.7656 L311.9313,1222.6094 Q311.9313,1221.2813 312.5406,1220.1406 Q313.1656,1218.9844 314.2594,1218.375 Q315.3531,1217.75 316.5875,1217.75 Q317.3219,1217.75 317.9625,1217.9219 Q318.6188,1218.0781 319.1656,1218.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="336.9" y="1227.416">Pawn</text><line style="stroke:#181818;stroke-width:0.5;" x1="131.65" x2="543.65" y1="1238.5625" y2="1238.5625"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="138.65" y="1248.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="150.65" y="1255.2363">moved : boolean = false</text><line style="stroke:#181818;stroke-width:0.5;" x1="131.65" x2="543.65" y1="1262.2031" y2="1262.2031"/><ellipse cx="141.65" cy="1275.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="150.65" y="1278.877">«Create» Pawn(couleur : Color)</text><ellipse cx="141.65" cy="1291.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="150.65" y="1294.5176">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text><ellipse cx="141.65" cy="1306.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="150.65" y="1310.1582">getIsMoved() : boolean</text></g><!--MD5=[e05bacf3ff4416a0580578814d41bbf6]
+class Piece--><g id="elem_Piece"><rect codeLine="92" fill="#F1F1F1" height="94.9219" id="Piece" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="1028.65" y="1416.5625"/><ellipse cx="1213.9" cy="1432.5625" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1216.0875,1434.3281 L1211.9469,1434.3281 L1211.525,1435.3594 L1211.9469,1435.3594 Q1212.5563,1435.3594 1212.8219,1435.5938 Q1213.0875,1435.8281 1213.0875,1436.2188 Q1213.0875,1436.5938 1212.8219,1436.8281 Q1212.5563,1437.0625 1211.9469,1437.0625 L1209.65,1437.0625 Q1209.0406,1437.0625 1208.7906,1436.8281 Q1208.525,1436.5938 1208.525,1436.2031 Q1208.525,1435.8281 1208.8063,1435.5938 Q1209.0719,1435.3438 1209.6969,1435.3594 L1212.3688,1428.7031 L1211.2594,1428.7031 Q1210.65,1428.7031 1210.3844,1428.4688 Q1210.1188,1428.2344 1210.1188,1427.8438 Q1210.1188,1427.4688 1210.3844,1427.2344 Q1210.65,1427 1211.2594,1427 L1214.9313,1427 L1218.3219,1435.3594 Q1218.9156,1435.3594 1219.1031,1435.5 Q1219.4938,1435.7656 1219.4938,1436.2188 Q1219.4938,1436.5938 1219.2281,1436.8281 Q1218.9781,1437.0625 1218.3688,1437.0625 L1216.0719,1437.0625 Q1215.4625,1437.0625 1215.1969,1436.8281 Q1214.9313,1436.5938 1214.9313,1436.2031 Q1214.9313,1435.8281 1215.1969,1435.5938 Q1215.4625,1435.3594 1216.0719,1435.3594 L1216.4938,1435.3594 L1216.0875,1434.3281 Z M1215.3688,1432.625 L1214.0094,1429.25 L1212.6344,1432.625 L1215.3688,1432.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="1234.4" y="1437.416">Piece</text><line style="stroke:#181818;stroke-width:0.5;" x1="1029.65" x2="1441.65" y1="1448.5625" y2="1448.5625"/><polygon fill="none" points="1039.65,1456.8828,1043.65,1460.8828,1039.65,1464.8828,1035.65,1460.8828" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1048.65" y="1465.2363">color : Color</text><line style="stroke:#181818;stroke-width:0.5;" x1="1029.65" x2="1441.65" y1="1472.2031" y2="1472.2031"/><ellipse cx="1039.65" cy="1485.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="1048.65" y="1488.877">getColor() : Color</text><ellipse cx="1039.65" cy="1501.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="1048.65" y="1504.5176">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text></g><!--MD5=[963332e96584694d6c1a32145353c1b6]
+class PieceFactory--><g id="elem_PieceFactory"><rect codeLine="99" fill="#F1F1F1" height="157.4844" id="PieceFactory" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="437" x="1241.15" y="895.5625"/><ellipse cx="1413.9" cy="911.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1416.6656,907.4375 Q1416.8219,907.2188 1417.0094,907.1094 Q1417.1969,907 1417.4156,907 Q1417.7906,907 1418.025,907.2656 Q1418.2594,907.5156 1418.2594,908.125 L1418.2594,909.5781 Q1418.2594,910.1875 1418.025,910.4531 Q1417.7906,910.7188 1417.4156,910.7188 Q1417.0719,910.7188 1416.8688,910.5156 Q1416.6656,910.3281 1416.5563,909.8125 Q1416.5094,909.4531 1416.3219,909.2656 Q1415.9938,908.8906 1415.3844,908.6719 Q1414.775,908.4531 1414.15,908.4531 Q1413.3844,908.4531 1412.7438,908.7813 Q1412.1188,909.1094 1411.6188,909.8594 Q1411.1344,910.6094 1411.1344,911.6406 L1411.1344,912.7344 Q1411.1344,913.9688 1412.025,914.7969 Q1412.9156,915.6094 1414.5094,915.6094 Q1415.4469,915.6094 1416.1031,915.3594 Q1416.4938,915.2031 1416.9156,914.7656 Q1417.1813,914.5 1417.3219,914.4219 Q1417.4781,914.3438 1417.6813,914.3438 Q1418.0094,914.3438 1418.2594,914.6094 Q1418.525,914.8594 1418.525,915.2031 Q1418.525,915.5469 1418.1813,915.9531 Q1417.6813,916.5313 1416.8844,916.8594 Q1415.8063,917.3125 1414.5094,917.3125 Q1412.9938,917.3125 1411.7906,916.6875 Q1410.8063,916.1875 1410.1188,915.125 Q1409.4313,914.0469 1409.4313,912.7656 L1409.4313,911.6094 Q1409.4313,910.2813 1410.0406,909.1406 Q1410.6656,907.9844 1411.7594,907.375 Q1412.8531,906.75 1414.0875,906.75 Q1414.8219,906.75 1415.4625,906.9219 Q1416.1188,907.0781 1416.6656,907.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1434.4" y="916.416">PieceFactory</text><line style="stroke:#181818;stroke-width:0.5;" x1="1242.15" x2="1677.15" y1="927.5625" y2="927.5625"/><line style="stroke:#181818;stroke-width:0.5;" x1="1242.15" x2="1677.15" y1="935.5625" y2="935.5625"/><ellipse cx="1252.15" cy="948.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="1261.15" y="952.2363">«Create» PieceFactory()</text><ellipse cx="1252.15" cy="964.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="387" x="1261.15" y="967.877">createRook(couleur : Color) : «Create» Rook(couleur : Color)</text><ellipse cx="1252.15" cy="980.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="401" x="1261.15" y="983.5176">createKnight(couleur : Color) : «Create» Knight(couleur : Color)</text><ellipse cx="1252.15" cy="995.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="407" x="1261.15" y="999.1582">createBishop(couleur : Color) : «Create» Bishop(couleur : Color)</text><ellipse cx="1252.15" cy="1011.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="411" x="1261.15" y="1014.7988">createQueen(couleur : Color) :  «Create» Queen(couleur : Color)</text><ellipse cx="1252.15" cy="1027.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="381" x="1261.15" y="1030.4395">createKing(couleur : Color) :  «Create» King(couleur : Color)</text><ellipse cx="1252.15" cy="1042.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="393" x="1261.15" y="1046.0801">createPawn(couleur : Color) :  «Create» Pawn(couleur : Color)</text></g><!--MD5=[2cb47ba637a0d19583e6199456f6ad0b]
+class Player--><g id="elem_Player"><rect codeLine="111" fill="#F1F1F1" height="188.7656" id="Player" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="365" x="2825.15" y="1167.5625"/><ellipse cx="2983.4" cy="1183.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2986.1656,1179.4375 Q2986.3219,1179.2188 2986.5094,1179.1094 Q2986.6969,1179 2986.9156,1179 Q2987.2906,1179 2987.525,1179.2656 Q2987.7594,1179.5156 2987.7594,1180.125 L2987.7594,1181.5781 Q2987.7594,1182.1875 2987.525,1182.4531 Q2987.2906,1182.7188 2986.9156,1182.7188 Q2986.5719,1182.7188 2986.3688,1182.5156 Q2986.1656,1182.3281 2986.0563,1181.8125 Q2986.0094,1181.4531 2985.8219,1181.2656 Q2985.4938,1180.8906 2984.8844,1180.6719 Q2984.275,1180.4531 2983.65,1180.4531 Q2982.8844,1180.4531 2982.2438,1180.7813 Q2981.6188,1181.1094 2981.1188,1181.8594 Q2980.6344,1182.6094 2980.6344,1183.6406 L2980.6344,1184.7344 Q2980.6344,1185.9688 2981.525,1186.7969 Q2982.4156,1187.6094 2984.0094,1187.6094 Q2984.9469,1187.6094 2985.6031,1187.3594 Q2985.9938,1187.2031 2986.4156,1186.7656 Q2986.6813,1186.5 2986.8219,1186.4219 Q2986.9781,1186.3438 2987.1813,1186.3438 Q2987.5094,1186.3438 2987.7594,1186.6094 Q2988.025,1186.8594 2988.025,1187.2031 Q2988.025,1187.5469 2987.6813,1187.9531 Q2987.1813,1188.5313 2986.3844,1188.8594 Q2985.3063,1189.3125 2984.0094,1189.3125 Q2982.4938,1189.3125 2981.2906,1188.6875 Q2980.3063,1188.1875 2979.6188,1187.125 Q2978.9313,1186.0469 2978.9313,1184.7656 L2978.9313,1183.6094 Q2978.9313,1182.2813 2979.5406,1181.1406 Q2980.1656,1179.9844 2981.2594,1179.375 Q2982.3531,1178.75 2983.5875,1178.75 Q2984.3219,1178.75 2984.9625,1178.9219 Q2985.6188,1179.0781 2986.1656,1179.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="3003.9" y="1188.416">Player</text><line style="stroke:#181818;stroke-width:0.5;" x1="2826.15" x2="3189.15" y1="1199.5625" y2="1199.5625"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2833.15" y="1209.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2845.15" y="1216.2363">namePlayer : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2833.15" y="1225.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="2845.15" y="1231.877">lostPieces : List&lt;Piece&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2833.15" y="1241.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="2845.15" y="1247.5176">colorOfPieces : Color</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2833.15" y="1256.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="2845.15" y="1263.1582">played : boolean = false</text><line style="stroke:#181818;stroke-width:0.5;" x1="2826.15" x2="3189.15" y1="1270.125" y2="1270.125"/><ellipse cx="2836.15" cy="1283.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="339" x="2845.15" y="1286.7988">«Create» Player(name : String, colorOfPieces : Color)</text><ellipse cx="2836.15" cy="1299.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="2845.15" y="1302.4395">getPlayerName() : String</text><ellipse cx="2836.15" cy="1314.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="2845.15" y="1318.0801">getLostPieces() : List&lt;Piece&gt;</text><ellipse cx="2836.15" cy="1330.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="2845.15" y="1333.7207">addLostPiece(piece : Piece)</text><ellipse cx="2836.15" cy="1346.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="2845.15" y="1349.3613">getColorOfPieces() : Color</text></g><!--MD5=[b5524c1f1cf4f7aeecdc9b5af5b05d87]
+class Queen--><g id="elem_Queen"><rect codeLine="124" fill="#F1F1F1" height="79.2813" id="Queen" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="579.65" y="1222.5625"/><ellipse cx="760.9" cy="1238.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M763.6656,1234.4375 Q763.8219,1234.2188 764.0094,1234.1094 Q764.1969,1234 764.4156,1234 Q764.7906,1234 765.025,1234.2656 Q765.2594,1234.5156 765.2594,1235.125 L765.2594,1236.5781 Q765.2594,1237.1875 765.025,1237.4531 Q764.7906,1237.7188 764.4156,1237.7188 Q764.0719,1237.7188 763.8688,1237.5156 Q763.6656,1237.3281 763.5563,1236.8125 Q763.5094,1236.4531 763.3219,1236.2656 Q762.9938,1235.8906 762.3844,1235.6719 Q761.775,1235.4531 761.15,1235.4531 Q760.3844,1235.4531 759.7438,1235.7813 Q759.1188,1236.1094 758.6188,1236.8594 Q758.1344,1237.6094 758.1344,1238.6406 L758.1344,1239.7344 Q758.1344,1240.9688 759.025,1241.7969 Q759.9156,1242.6094 761.5094,1242.6094 Q762.4469,1242.6094 763.1031,1242.3594 Q763.4938,1242.2031 763.9156,1241.7656 Q764.1813,1241.5 764.3219,1241.4219 Q764.4781,1241.3438 764.6813,1241.3438 Q765.0094,1241.3438 765.2594,1241.6094 Q765.525,1241.8594 765.525,1242.2031 Q765.525,1242.5469 765.1813,1242.9531 Q764.6813,1243.5313 763.8844,1243.8594 Q762.8063,1244.3125 761.5094,1244.3125 Q759.9938,1244.3125 758.7906,1243.6875 Q757.8063,1243.1875 757.1188,1242.125 Q756.4313,1241.0469 756.4313,1239.7656 L756.4313,1238.6094 Q756.4313,1237.2813 757.0406,1236.1406 Q757.6656,1234.9844 758.7594,1234.375 Q759.8531,1233.75 761.0875,1233.75 Q761.8219,1233.75 762.4625,1233.9219 Q763.1188,1234.0781 763.6656,1234.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="781.4" y="1243.416">Queen</text><line style="stroke:#181818;stroke-width:0.5;" x1="580.65" x2="992.65" y1="1254.5625" y2="1254.5625"/><line style="stroke:#181818;stroke-width:0.5;" x1="580.65" x2="992.65" y1="1262.5625" y2="1262.5625"/><ellipse cx="590.65" cy="1275.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="599.65" y="1279.2363">«Create» Queen(couleur : Color)</text><ellipse cx="590.65" cy="1291.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="599.65" y="1294.877">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text></g><!--MD5=[6bd8cd731001ea389c78559e5d225136]
+class Rook--><g id="elem_Rook"><rect codeLine="130" fill="#F1F1F1" height="79.2813" id="Rook" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="414" x="1028.65" y="1222.5625"/><ellipse cx="1214.9" cy="1238.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1217.6656,1234.4375 Q1217.8219,1234.2188 1218.0094,1234.1094 Q1218.1969,1234 1218.4156,1234 Q1218.7906,1234 1219.025,1234.2656 Q1219.2594,1234.5156 1219.2594,1235.125 L1219.2594,1236.5781 Q1219.2594,1237.1875 1219.025,1237.4531 Q1218.7906,1237.7188 1218.4156,1237.7188 Q1218.0719,1237.7188 1217.8688,1237.5156 Q1217.6656,1237.3281 1217.5563,1236.8125 Q1217.5094,1236.4531 1217.3219,1236.2656 Q1216.9938,1235.8906 1216.3844,1235.6719 Q1215.775,1235.4531 1215.15,1235.4531 Q1214.3844,1235.4531 1213.7438,1235.7813 Q1213.1188,1236.1094 1212.6188,1236.8594 Q1212.1344,1237.6094 1212.1344,1238.6406 L1212.1344,1239.7344 Q1212.1344,1240.9688 1213.025,1241.7969 Q1213.9156,1242.6094 1215.5094,1242.6094 Q1216.4469,1242.6094 1217.1031,1242.3594 Q1217.4938,1242.2031 1217.9156,1241.7656 Q1218.1813,1241.5 1218.3219,1241.4219 Q1218.4781,1241.3438 1218.6813,1241.3438 Q1219.0094,1241.3438 1219.2594,1241.6094 Q1219.525,1241.8594 1219.525,1242.2031 Q1219.525,1242.5469 1219.1813,1242.9531 Q1218.6813,1243.5313 1217.8844,1243.8594 Q1216.8063,1244.3125 1215.5094,1244.3125 Q1213.9938,1244.3125 1212.7906,1243.6875 Q1211.8063,1243.1875 1211.1188,1242.125 Q1210.4313,1241.0469 1210.4313,1239.7656 L1210.4313,1238.6094 Q1210.4313,1237.2813 1211.0406,1236.1406 Q1211.6656,1234.9844 1212.7594,1234.375 Q1213.8531,1233.75 1215.0875,1233.75 Q1215.8219,1233.75 1216.4625,1233.9219 Q1217.1188,1234.0781 1217.6656,1234.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="1235.4" y="1243.416">Rook</text><line style="stroke:#181818;stroke-width:0.5;" x1="1029.65" x2="1441.65" y1="1254.5625" y2="1254.5625"/><line style="stroke:#181818;stroke-width:0.5;" x1="1029.65" x2="1441.65" y1="1262.5625" y2="1262.5625"/><ellipse cx="1039.65" cy="1275.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="1048.65" y="1279.2363">«Create» Rook(couleur : Color)</text><ellipse cx="1039.65" cy="1291.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="388" x="1048.65" y="1294.877">getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List&lt;Tile&gt;</text></g><!--MD5=[18e4d9ca2a6cdced7b66e5fef94ef6f6]
+class Tile--><g id="elem_Tile"><rect codeLine="136" fill="#F1F1F1" height="266.9688" id="Tile" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="230" x="545.65" y="840.5625"/><ellipse cx="644.9" cy="856.5625" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M647.6656,852.4375 Q647.8219,852.2188 648.0094,852.1094 Q648.1969,852 648.4156,852 Q648.7906,852 649.025,852.2656 Q649.2594,852.5156 649.2594,853.125 L649.2594,854.5781 Q649.2594,855.1875 649.025,855.4531 Q648.7906,855.7188 648.4156,855.7188 Q648.0719,855.7188 647.8688,855.5156 Q647.6656,855.3281 647.5563,854.8125 Q647.5094,854.4531 647.3219,854.2656 Q646.9938,853.8906 646.3844,853.6719 Q645.775,853.4531 645.15,853.4531 Q644.3844,853.4531 643.7438,853.7813 Q643.1188,854.1094 642.6188,854.8594 Q642.1344,855.6094 642.1344,856.6406 L642.1344,857.7344 Q642.1344,858.9688 643.025,859.7969 Q643.9156,860.6094 645.5094,860.6094 Q646.4469,860.6094 647.1031,860.3594 Q647.4938,860.2031 647.9156,859.7656 Q648.1813,859.5 648.3219,859.4219 Q648.4781,859.3438 648.6813,859.3438 Q649.0094,859.3438 649.2594,859.6094 Q649.525,859.8594 649.525,860.2031 Q649.525,860.5469 649.1813,860.9531 Q648.6813,861.5313 647.8844,861.8594 Q646.8063,862.3125 645.5094,862.3125 Q643.9938,862.3125 642.7906,861.6875 Q641.8063,861.1875 641.1188,860.125 Q640.4313,859.0469 640.4313,857.7656 L640.4313,856.6094 Q640.4313,855.2813 641.0406,854.1406 Q641.6656,852.9844 642.7594,852.375 Q643.8531,851.75 645.0875,851.75 Q645.8219,851.75 646.4625,851.9219 Q647.1188,852.0781 647.6656,852.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="665.4" y="861.416">Tile</text><line style="stroke:#181818;stroke-width:0.5;" x1="546.65" x2="774.65" y1="872.5625" y2="872.5625"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="553.65" y="882.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="565.65" y="889.2363">piece : Piece</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="553.65" y="898.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="565.65" y="904.877">posX : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="553.65" y="914.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="565.65" y="920.5176">posY : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="553.65" y="929.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="565.65" y="936.1582">isClicked : boolean = false</text><line style="stroke:#181818;stroke-width:0.5;" x1="546.65" x2="774.65" y1="943.125" y2="943.125"/><ellipse cx="556.65" cy="956.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="565.65" y="959.7988">«Create» Tile()</text><ellipse cx="556.65" cy="972.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="565.65" y="975.4395">isOccuped() : boolean</text><ellipse cx="556.65" cy="987.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="565.65" y="991.0801">setPiece(piece : Piece)</text><ellipse cx="556.65" cy="1003.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="565.65" y="1006.7207">getIsClicked() : boolean</text><ellipse cx="556.65" cy="1019.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="565.65" y="1022.3613">setIsClicked(isClicked : boolean)</text><ellipse cx="556.65" cy="1034.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="565.65" y="1038.002">getPiece() : Piece</text><ellipse cx="556.65" cy="1050.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="565.65" y="1053.6426">getPosX() : int</text><ellipse cx="556.65" cy="1065.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="565.65" y="1069.2832">getPosY() : int</text><ellipse cx="556.65" cy="1081.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="565.65" y="1084.9238">setPosX(posX : int)</text><ellipse cx="556.65" cy="1097.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="565.65" y="1100.5645">setPosY(posY : int)</text></g><!--MD5=[4f7007acaa54fb7aa6f6d14f3f16e583]
+link Bishop to Piece--><g id="link_Bishop_Piece"><path codeLine="154" d="M1598.08,1301.6225 C1530.04,1331.9325 1434.41,1374.5325 1358.46,1408.3525 " fill="none" id="Bishop-to-Piece" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="1361.22,1414.7925,1340.1,1416.5325,1355.52,1402.0025,1361.22,1414.7925" style="stroke:#FF0000;stroke-width:1.0;"/></g><!--MD5=[c4fd6202eed5f2b0cd434358c60c23f8]
+link Bishop to Color--><g id="link_Bishop_Color"><path codeLine="155" d="M1684.65,1313.6225 C1684.65,1313.6225 1684.65,1381.4925 1684.65,1411.2025 " fill="none" id="Bishop-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1684.65,1424.2825,1688.65,1415.2825,1684.65,1419.2825,1680.65,1415.2825,1684.65,1424.2825" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1684.65" x2="1684.65" y1="1419.2825" y2="1411.2825"/><polygon fill="none" points="1684.65,1301.6225,1680.65,1307.6225,1684.65,1313.6225,1688.65,1307.6225,1684.65,1301.6225" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1645.4438" y="1413.7399">use 1</text></g><!--MD5=[8d086be6804d09832bbe5264b8cd4eea]
+link Board to Tile--><g id="link_Board_Tile"><path codeLine="157" d="M1931.0711,675.9072 C1931.0711,675.9072 1464.99,784.1025 1223.65,840.5625 C1074.31,875.4925 902.76,915.9125 788.66,942.8325 " fill="none" id="Board-Tile" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="775.73,945.8825,785.4084,947.7069,780.5961,944.7333,783.5697,939.9211,775.73,945.8825" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="780.5961" x2="788.385" y1="944.7333" y2="942.8975"/><polygon fill="#008000" points="1942.76,673.1925,1936.0107,670.6535,1931.0711,675.9072,1937.8204,678.4461,1942.76,673.1925" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="783.775" y="941.4151">use</text></g><!--MD5=[7c581d86c174322402363c5746157444]
+link Board to PieceFactory--><g id="link_Board_PieceFactory"><path codeLine="158" d="M1932.1148,735.4549 C1932.1148,735.4549 1717.32,843.4825 1625.87,889.4725 " fill="none" id="Board-PieceFactory" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="1613.98,895.4525,1623.8176,894.9811,1618.4466,893.2055,1620.2223,887.8345,1613.98,895.4525" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="1618.4466" x2="1625.595" y1="893.2055" y2="889.6075"/><polygon fill="#008000" points="1942.84,730.0725,1935.6833,729.1886,1932.1148,735.4549,1939.2715,736.3388,1942.84,730.0725" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1607.1383" y="884.7957">use</text></g><!--MD5=[89c1188abbb21880eac42a1776855262]
+link Board to King--><g id="link_Board_King"><path codeLine="159" d="M2234.2603,791.2418 C2234.2603,791.2418 2354.52,1009.1925 2429.65,1107.5625 C2444.82,1127.4225 2462.41,1147.3125 2480.16,1165.8825 " fill="none" id="Board-King" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="2489.44,1175.4625,2486.0478,1166.2162,2485.9599,1171.8724,2480.3037,1171.7844,2489.44,1175.4625" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="2485.9599" x2="2480.395" y1="1171.8724" y2="1166.1175"/><polygon fill="#008000" points="2228.71,780.6025,2227.9388,787.7722,2234.2603,791.2418,2235.0316,784.072,2228.71,780.6025" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2459.2033" y="1164.9125">use</text></g><!--MD5=[15c8f9ca3aac13d865864b4eb5314ef1]
+link Game to Board--><g id="link_Game_Board"><path codeLine="161" d="M2226.2856,417.8996 C2226.2856,417.8996 2217.53,442.2825 2213.37,453.8425 " fill="none" id="Game-Board" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="2208.87,466.3425,2215.6808,459.2283,2210.5628,461.6378,2208.1533,456.5198,2208.87,466.3425" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="2210.5628" x2="2213.27" y1="461.6378" y2="454.1125"/><polygon fill="#008000" points="2230.36,406.6125,2224.5604,410.8979,2226.2856,417.8996,2232.0852,413.6142,2230.36,406.6125" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2190.2274" y="455.6598">use</text></g><!--MD5=[6b6b9e8ceff4e9e58f06e15491e15318]
+link Game to Player--><g id="link_Game_Player"><path codeLine="162" d="M2397.6872,416.4869 C2397.6872,416.4869 2805.5,981.1525 2932.45,1156.9425 " fill="none" id="Game-Player" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="2940.07,1167.4925,2938.0433,1157.8544,2937.1425,1163.4391,2931.5579,1162.5383,2940.07,1167.4925" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="2937.1425" x2="2932.46" y1="1163.4391" y2="1156.9475"/><polygon fill="#008000" points="2390.67,406.7525,2390.9338,413.9588,2397.6872,416.4869,2397.4234,409.2806,2390.67,406.7525" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2912.604" y="1156.8812">use</text></g><!--MD5=[f0c5da0b9554ceb5efb269513db9bfd3]
+link King to Piece--><g id="link_King_Piece"><path codeLine="164" d="M2387.46,1348.6325 C2377.8,1351.5725 2368.17,1354.2425 2358.65,1356.5625 C2044.95,1433.0125 1955.94,1384.5325 1634.65,1416.5625 C1578.98,1422.1125 1519.02,1428.7525 1462.92,1435.2525 " fill="none" id="King-to-Piece" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="1463.53,1442.2225,1442.85,1437.5825,1461.91,1428.3225,1463.53,1442.2225" style="stroke:#FF0000;stroke-width:1.0;"/></g><!--MD5=[7265cca681068c6c997542123d65a237]
+link King to Color--><g id="link_King_Color"><path codeLine="165" d="M2373.3216,1352.2106 C2373.3216,1352.2106 2363.09,1355.3025 2358.65,1356.5625 C2128.29,1421.8225 1841.57,1450.4225 1731.06,1459.5625 " fill="none" id="King-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1717.86,1460.6325,1727.1555,1463.8874,1722.8434,1460.2259,1726.5049,1455.9139,1717.86,1460.6325" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1722.8434" x2="1730.82" y1="1460.2259" y2="1459.5875"/><polygon fill="none" points="2384.76,1348.5825,2377.8314,1346.5837,2373.3216,1352.2106,2380.2502,1354.2093,2384.76,1348.5825" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1725.7015" y="1456.8225">use 1</text></g><!--MD5=[28c5755ab65abbdfb2e56992e1376e7c]
+link Knight to Piece--><g id="link_Knight_Piece"><path codeLine="167" d="M2054.44,1301.5825 C2012.3,1320.6525 1959.11,1342.5525 1909.65,1356.5625 C1763.56,1397.9525 1594.8,1424.5925 1462.7,1440.8725 " fill="none" id="Knight-to-Piece" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="1463.35,1447.8525,1442.65,1443.3025,1461.67,1433.9525,1463.35,1447.8525" style="stroke:#FF0000;stroke-width:1.0;"/></g><!--MD5=[438994932c0b7eafec16c7c6d6481f70]
+link Knight to Color--><g id="link_Knight_Color"><path codeLine="168" d="M2036.1175,1306.5035 C2036.1175,1306.5035 1800.79,1411.3325 1729.81,1442.9425 " fill="none" id="Knight-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1717.79,1448.3025,1727.6388,1448.286,1722.3557,1446.2642,1724.3775,1440.981,1717.79,1448.3025" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1722.3557" x2="1729.665" y1="1446.2642" y2="1443.0075"/><polygon fill="none" points="2047.08,1301.6225,2039.9718,1300.4088,2036.1175,1306.5035,2043.2258,1307.7172,2047.08,1301.6225" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1725.6208" y="1442.6045">use 1</text></g><!--MD5=[460d3fcfc152cc88bdd596162fe7f187]
+link Pawn to Piece--><g id="link_Pawn_Piece"><path codeLine="170" d="M453.47,1317.5925 C487.71,1332.0025 525.66,1346.3725 561.65,1356.5625 C707.74,1397.9525 876.49,1424.5925 1008.6,1440.8725 " fill="none" id="Pawn-to-Piece" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="1009.63,1433.9525,1028.64,1443.3025,1007.95,1447.8525,1009.63,1433.9525" style="stroke:#FF0000;stroke-width:1.0;"/></g><!--MD5=[279b418a4c3dd0f5d5d1916f7e5f6ce5]
+link Pawn to Color--><g id="link_Pawn_Color"><path codeLine="171" d="M459.1009,1322.2462 C459.1009,1322.2462 527.82,1348.6025 561.65,1356.5625 C951.02,1448.1725 1063.3,1362.6225 1459.65,1416.5625 C1522.11,1425.0625 1593.19,1440.7825 1638.45,1451.5825 " fill="none" id="Pawn-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1651.35,1454.6825,1643.5423,1448.6792,1646.4901,1453.5073,1641.662,1456.4551,1651.35,1454.6825" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1646.4901" x2="1638.71" y1="1453.5073" y2="1451.6375"/><polygon fill="none" points="448.04,1317.5925,452.0192,1323.6063,459.1009,1322.2462,455.1217,1316.2324,448.04,1317.5925" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1607.4947" y="1449.9614">use 1</text></g><!--MD5=[73bd1448cd9888a3811c4e048d2d3d5c]
+link PieceFactory to Piece--><g id="link_PieceFactory_Piece"><path codeLine="173" d="M1229.2544,1027.2078 C1229.2544,1027.2078 938.27,1086.7325 792.65,1107.5625 C717.56,1118.3025 163.87,1111.6225 112.65,1167.5625 C55.92,1229.5125 56.12,1294.4225 112.65,1356.5625 C172.08,1421.9025 705.47,1448.0425 1015.28,1457.7825 " fill="none" id="PieceFactory-Piece" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="1028.49,1458.1925,1019.6174,1453.9173,1023.4924,1458.0386,1019.3711,1461.9135,1028.49,1458.1925" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="1023.4924" x2="1015.49" y1="1458.0386" y2="1457.7875"/><polygon fill="#008000" points="1240.99,1024.7025,1234.2871,1022.0433,1229.2544,1027.2078,1235.9573,1029.867,1240.99,1024.7025" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="999.6678" y="1455.5093">use</text></g><!--MD5=[3f9b687d5b7b7c7cbe7db84ab0df5191]
+link PieceFactory to Rook--><g id="link_PieceFactory_Rook"><path codeLine="174" d="M1391.329,1062.2784 C1391.329,1062.2784 1306.11,1171.1025 1274.2,1211.8425 " fill="none" id="PieceFactory-Rook" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="1266,1222.3125,1274.6963,1217.6892,1269.0811,1218.3746,1268.3957,1212.7595,1266,1222.3125" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="1269.0811" x2="1274.015" y1="1218.3746" y2="1212.0775"/><polygon fill="#008000" points="1398.73,1052.8325,1391.8809,1055.0884,1391.329,1062.2784,1398.1781,1060.0225,1398.73,1052.8325" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1248.5358" y="1211.7753">use</text></g><!--MD5=[e52f8614df798f0f9280498b82b45b42]
+link PieceFactory to Knight--><g id="link_PieceFactory_Knight"><path codeLine="175" d="M1653.5394,1057.3233 C1653.5394,1057.3233 1930.86,1175.0125 2030.49,1217.2925 " fill="none" id="PieceFactory-Knight" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="2042.66,1222.4525,2035.9436,1215.249,2038.0589,1220.4955,2032.8124,1222.6108,2042.66,1222.4525" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="2038.0589" x2="2030.7" y1="1220.4955" y2="1217.3775"/><polygon fill="#008000" points="1642.49,1052.6425,1646.4544,1058.6661,1653.5394,1057.3233,1649.575,1051.2998,1642.49,1052.6425" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2003.5821" y="1211.9402">use</text></g><!--MD5=[1cb26706289b18438a5219578b4764e3]
+link PieceFactory to Bishop--><g id="link_PieceFactory_Bishop"><path codeLine="176" d="M1528.2392,1062.272 C1528.2392,1062.272 1613.87,1171.1025 1645.93,1211.8425 " fill="none" id="PieceFactory-Bishop" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="1654.16,1222.3125,1651.7349,1212.7669,1651.0668,1218.3842,1645.4495,1217.7161,1654.16,1222.3125" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="1651.0668" x2="1646.125" y1="1218.3842" y2="1212.0975"/><polygon fill="#008000" points="1520.83,1052.8325,1521.3881,1060.022,1528.2392,1062.272,1527.6811,1055.0825,1520.83,1052.8325" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="1625.8587" y="1211.7753">use</text></g><!--MD5=[69125642cc0d6b93740bb3ab8a151783]
+link PieceFactory to Queen--><g id="link_PieceFactory_Queen"><path codeLine="177" d="M1266.0353,1057.3345 C1266.0353,1057.3345 989.14,1175.0125 889.66,1217.2925 " fill="none" id="PieceFactory-Queen" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="877.49,1222.4525,887.3375,1222.6151,882.092,1220.4975,884.2095,1215.2519,877.49,1222.4525" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="882.092" x2="889.46" y1="1220.4975" y2="1217.3725"/><polygon fill="#008000" points="1277.08,1052.6425,1269.9937,1051.3069,1266.0353,1057.3345,1273.1217,1058.6701,1277.08,1052.6425" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="870.8006" y="1211.9402">use</text></g><!--MD5=[9facfa7c8514eca866c023e7b2a1de3d]
+link PieceFactory to King--><g id="link_PieceFactory_King"><path codeLine="178" d="M1690.0654,1012.3192 C1690.0654,1012.3192 2136.06,1097.9325 2358.65,1167.5625 C2362.49,1168.7625 2366.37,1170.0125 2370.26,1171.2925 " fill="none" id="PieceFactory-King" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="2382.74,1175.4925,2375.4922,1168.824,2378.0027,1173.8932,2372.9334,1176.4037,2382.74,1175.4925" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="2378.0027" x2="2370.415" y1="1173.8932" y2="1171.3425"/><polygon fill="#008000" points="1678.25,1010.2225,1683.4588,1015.2093,1690.0654,1012.3192,1684.8566,1007.3324,1678.25,1010.2225" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2346.9455" y="1166.6959">use</text></g><!--MD5=[999748f0f27a5ebba0fea2a854c8cfe6]
+link PieceFactory to Pawn--><g id="link_PieceFactory_Pawn"><path codeLine="179" d="M1229.3465,1019.4229 C1229.3465,1019.4229 683.63,1129.3925 561.65,1167.5625 C531.25,1177.0725 499.27,1189.1225 469.3,1201.3725 " fill="none" id="PieceFactory-Pawn" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="457.04,1206.4525,466.8856,1206.7074,461.6601,1204.5407,463.8267,1199.3153,457.04,1206.4525" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="461.6601" x2="469.05" y1="1204.5407" y2="1201.4775"/><polygon fill="#008000" points="1241.12,1017.1025,1234.4598,1014.3382,1229.3465,1019.4229,1236.0067,1022.1872,1241.12,1017.1025" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="450.6721" y="1195.8724">use</text></g><!--MD5=[ebf52a6f230ff8b0d594dd9ce4cd7c5b]
+link Player to Color--><g id="link_Player_Color"><path codeLine="181" d="M2813.4559,1354.9233 C2813.4559,1354.9233 2809.26,1356.1225 2807.65,1356.5625 C2599.1,1413.3725 1915.26,1451.3925 1730.83,1460.7925 " fill="none" id="Player-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1717.69,1461.4525,1726.8807,1464.9925,1722.6836,1461.1998,1726.4763,1457.0027,1717.69,1461.4525" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1722.6836" x2="1730.67" y1="1461.1998" y2="1460.7975"/><polygon fill="none" points="2824.94,1351.4425,2818.0377,1349.3549,2813.4559,1354.9233,2820.3582,1357.0109,2824.94,1351.4425" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1725.5055" y="1473.9118">use 1</text></g><!--MD5=[3ada97fffb5bcc4da390db27b64fa26e]
+link Player to Piece--><g id="link_Player_Piece"><path codeLine="182" d="M2813.4748,1355.0447 C2813.4748,1355.0447 2809.18,1356.1825 2807.65,1356.5625 C2554.38,1419.6725 1894.74,1394.7825 1634.65,1416.5625 C1576.58,1421.4225 1513.91,1428.0725 1455.83,1434.8125 " fill="none" id="Player-Piece" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="1442.74,1436.3425,1452.1446,1439.2672,1447.706,1435.7602,1451.2129,1431.3216,1442.74,1436.3425" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="1447.706" x2="1455.65" y1="1435.7602" y2="1434.8325"/><polygon fill="#008000" points="2825.02,1351.7725,2818.1566,1349.5602,2813.4748,1355.0447,2820.3381,1357.257,2825.02,1351.7725" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="1450.6672" y="1432.9817">play with 16</text></g><!--MD5=[dfcca03d39ba98c9b07716ff0d54ec9d]
+link Queen to Piece--><g id="link_Queen_Piece"><path codeLine="184" d="M873.22,1301.6225 C941.26,1331.9325 1036.89,1374.5325 1112.83,1408.3525 " fill="none" id="Queen-to-Piece" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="1115.77,1402.0025,1131.19,1416.5325,1110.07,1414.7925,1115.77,1402.0025" style="stroke:#FF0000;stroke-width:1.0;"/></g><!--MD5=[8bba2050b9c714397baef53afb4bcd82]
+link Queen to Color--><g id="link_Queen_Color"><path codeLine="185" d="M875.6234,1306.5383 C875.6234,1306.5383 965.2,1344.2725 1010.65,1356.5625 C1204.99,1409.1225 1261.16,1382.8325 1459.65,1416.5625 C1521.97,1427.1525 1593.36,1442.4525 1638.7,1452.5725 " fill="none" id="Queen-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1651.62,1455.4725,1643.7125,1449.6012,1646.741,1454.3791,1641.9631,1457.4076,1651.62,1455.4725" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1646.741" x2="1638.935" y1="1454.3791" y2="1452.6225"/><polygon fill="none" points="864.69,1301.5925,868.5081,1307.7098,875.6234,1306.5383,871.8053,1300.4209,864.69,1301.5925" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1607.806" y="1467.0161">use 1</text></g><!--MD5=[506c47140d025f7454aec01455c46718]
+link Rook to Piece--><g id="link_Rook_Piece"><path codeLine="187" d="M1235.65,1301.6225 C1235.65,1328.4025 1235.65,1364.7925 1235.65,1396.2325 " fill="none" id="Rook-to-Piece" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="none" points="1242.65,1396.5325,1235.65,1416.5325,1228.65,1396.5325,1242.65,1396.5325" style="stroke:#FF0000;stroke-width:1.0;"/></g><!--MD5=[19447b3f1215607ea9b08255679a8722]
+link Rook to Color--><g id="link_Rook_Color"><path codeLine="188" d="M1333.1776,1306.5145 C1333.1776,1306.5145 1568.51,1411.3325 1639.49,1442.9425 " fill="none" id="Rook-Color" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="1651.51,1448.3025,1644.9151,1440.9876,1646.9423,1446.2687,1641.6611,1448.2959,1651.51,1448.3025" style="stroke:#0000FF;stroke-width:1.0;"/><line style="stroke:#0000FF;stroke-width:1.0;" x1="1646.9423" x2="1639.63" y1="1446.2687" y2="1443.0075"/><polygon fill="none" points="1322.22,1301.6225,1326.0681,1307.721,1333.1776,1306.5145,1329.3295,1300.416,1322.22,1301.6225" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="1607.6792" y="1442.6045">use 1</text></g><!--MD5=[865c23df8d2a23eb1e70ae392449b8c1]
+link Tile to Piece--><g id="link_Tile_Piece"><path codeLine="190" d="M533.7265,997.9329 C533.7265,997.9329 118.44,1090.9825 62.65,1167.5625 C13.18,1235.4525 6,1294.5425 62.65,1356.5625 C125.47,1425.3425 693.19,1450.1725 1015.19,1458.7625 " fill="none" id="Tile-Piece" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="1028.44,1459.1125,1019.5486,1454.8766,1023.4417,1458.9807,1019.3377,1462.8738,1028.44,1459.1125" style="stroke:#008000;stroke-width:1.0;"/><line style="stroke:#008000;stroke-width:1.0;" x1="1023.4417" x2="1015.44" y1="1458.9807" y2="1458.7725"/><polygon fill="#008000" points="545.5,995.6125,538.8398,992.8482,533.7265,997.9329,540.3867,1000.6972,545.5,995.6125" style="stroke:#008000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="999.616" y="1470.9655">use</text></g><!--MD5=[40f8718b0fd35386c4c9361460954d43]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+legend top
+    | Couleur  | Signification  |
+    |<#Blue>|  Agrégation |
+    |<#Green>|  Composition  |
+    |<#Red>|  Extension  |
+end legend
+
+
+class Bishop
+{
+    + <<Create>> Bishop(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Board
+{
+    - tiles : Tile[][]
+    - pf : PieceFactory
+    - blackKing : King
+    - whiteKing : King
+    - selectedTile : Tile
+    + <<Create>> Board()
+    - initPieces()
+    - initTiles()
+    + clickedOnTile(posX : int, posY : int, colorCurrentPlayer : Color)
+    + kingIsChecked(kingTile : Tile) : boolean
+    + KingIsCheckedMate(kingTile : Tile)
+    + simulateMove(src: Tile, dest : Tile)
+    + canMoveTo(src : Tile, dest : Tile) : boolean
+    + tileIsEmpty(tile : Tile) : boolean
+    + move(src : Tile, dest : Tile, colorCurrentPlayer : Color) : Piece
+    - getKingTile(king : King) : Tile
+    + getSelectedTile() : Tile
+}
+
+Enum Color
+{
+    BLACK,
+    WHITE
+}
+
+class Game
+{
+    - board : Board
+    - whitePlayer : Player
+    - blackPlayer : Player
+    - currentPlayer : Player
+    - observer : IModelObserver
+    + <<Create>> Game(whitePlayerName : String, blackPlayerName : String)
+    + gameStarted(whiteName : String, blackName : String)
+    + tileClicked(posX : int, posY : int)
+    + NextPlayer()
+    + nextRound()
+    - notifyGameStarted()
+    - notifyTileSelected(tile : Tile)
+    - notifyMovedPiece(piece : Piece)
+    - notifyNextRound()
+    - notifyEndGame(couleur : Color)
+    + setObserver(observer : IModelObserver)
+
+}
+
+class King
+{
+    - isChecked : boolean
+    - isCheckedMate : boolean
+    + <<Create>> King(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + getIsChecked() : boolean
+    + getIsCheckedMate() : boolean
+    + setChecked(isChecked : boolean)
+    + setCheckedMate(isCheckedMate : boolean)
+}
+
+class Knight
+{
+    + <<Create>> Knight(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Pawn
+{
+    - moved : boolean = false
+    + <<Create>> Pawn(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + getIsMoved() : boolean
+}
+
+abstract class Piece
+{
+    # color : Color
+    + getColor() : Color
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class PieceFactory
+{
+    + <<Create>> PieceFactory()
+    + createRook(couleur : Color) : <<Create>> Rook(couleur : Color)
+    + createKnight(couleur : Color) : <<Create>> Knight(couleur : Color)
+    + createBishop(couleur : Color) : <<Create>> Bishop(couleur : Color)
+    + createQueen(couleur : Color) :  <<Create>> Queen(couleur : Color)
+    + createKing(couleur : Color) :  <<Create>> King(couleur : Color)
+    + createPawn(couleur : Color) :  <<Create>> Pawn(couleur : Color)
+}
+
+
+class Player
+{
+    - namePlayer : String
+    - lostPieces : List<Piece>
+    - colorOfPieces : Color
+    - played : boolean = false
+    + <<Create>> Player(name : String, colorOfPieces : Color)
+    + getPlayerName() : String
+    + getLostPieces() : List<Piece>
+    + addLostPiece(piece : Piece)
+    + getColorOfPieces() : Color
+}
+
+class Queen
+{
+    + <<Create>> Queen(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Rook
+{
+   + <<Create>> Rook(couleur : Color)
+   + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Tile
+{
+    - piece : Piece
+    - posX : int
+    - posY : int
+    - isClicked : boolean = false
+    + <<Create>> Tile()
+    + isOccuped() : boolean
+    + setPiece(piece : Piece)
+    + getIsClicked() : boolean
+    + setIsClicked(isClicked : boolean)
+    + getPiece() : Piece
+    + getPosX() : int
+    + getPosY() : int
+    + setPosX(posX : int)
+    + setPosY(posY : int)
+}
+
+Bishop - -|> Piece #line:Red
+Bishop o- -> "use 1 " Color #line:Blue
+
+Board *- -> "use" Tile #line:Green
+Board *- -> "use" PieceFactory #line:Green
+Board *- -> "use" King #line:Green
+
+Game *- -> "use" Board #line:Green
+Game *- -> "use" Player #line:Green
+
+King - -|> Piece #line:Red
+King o- -> "use 1 " Color #line:Blue
+
+Knight - -|> Piece #line:Red
+Knight o- -> "use 1 " Color #line:Blue
+
+Pawn - -|> Piece #line:Red
+Pawn o- -> "use 1 " Color #line:Blue
+
+PieceFactory *- -> "use" Piece #line:Green
+PieceFactory *- -> "use" Rook #line:Green
+PieceFactory *- -> "use" Knight #line:Green
+PieceFactory *- -> "use" Bishop #line:Green
+PieceFactory *- -> "use" Queen #line:Green
+PieceFactory *- -> "use" King #line:Green
+PieceFactory *- -> "use" Pawn #line:Green
+
+Player o- -> "use 1 " Color #line:Blue
+Player *- -> "play with 16" Piece #line:Green
+
+Queen - -|> Piece #line:Red
+Queen o- -> "use 1 " Color #line:Blue
+
+Rook - -|> Piece #line:Red
+Rook o- -> "use 1 " Color #line:Blue
+
+Tile *- -> "use" Piece #line:Green
+
+@enduml
+
+@startuml
+
+
+legend top
+    | Couleur  | Signification  |
+    |<#Blue>|  Agrégation |
+    |<#Green>|  Composition  |
+    |<#Red>|  Extension  |
+end legend
+
+
+class Bishop
+{
+    + <<Create>> Bishop(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Board
+{
+    - tiles : Tile[][]
+    - pf : PieceFactory
+    - blackKing : King
+    - whiteKing : King
+    - selectedTile : Tile
+    + <<Create>> Board()
+    - initPieces()
+    - initTiles()
+    + clickedOnTile(posX : int, posY : int, colorCurrentPlayer : Color)
+    + kingIsChecked(kingTile : Tile) : boolean
+    + KingIsCheckedMate(kingTile : Tile)
+    + simulateMove(src: Tile, dest : Tile)
+    + canMoveTo(src : Tile, dest : Tile) : boolean
+    + tileIsEmpty(tile : Tile) : boolean
+    + move(src : Tile, dest : Tile, colorCurrentPlayer : Color) : Piece
+    - getKingTile(king : King) : Tile
+    + getSelectedTile() : Tile
+}
+
+Enum Color
+{
+    BLACK,
+    WHITE
+}
+
+class Game
+{
+    - board : Board
+    - whitePlayer : Player
+    - blackPlayer : Player
+    - currentPlayer : Player
+    - observer : IModelObserver
+    + <<Create>> Game(whitePlayerName : String, blackPlayerName : String)
+    + gameStarted(whiteName : String, blackName : String)
+    + tileClicked(posX : int, posY : int)
+    + NextPlayer()
+    + nextRound()
+    - notifyGameStarted()
+    - notifyTileSelected(tile : Tile)
+    - notifyMovedPiece(piece : Piece)
+    - notifyNextRound()
+    - notifyEndGame(couleur : Color)
+    + setObserver(observer : IModelObserver)
+
+}
+
+class King
+{
+    - isChecked : boolean
+    - isCheckedMate : boolean
+    + <<Create>> King(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + getIsChecked() : boolean
+    + getIsCheckedMate() : boolean
+    + setChecked(isChecked : boolean)
+    + setCheckedMate(isCheckedMate : boolean)
+}
+
+class Knight
+{
+    + <<Create>> Knight(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Pawn
+{
+    - moved : boolean = false
+    + <<Create>> Pawn(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + getIsMoved() : boolean
+}
+
+abstract class Piece
+{
+    # color : Color
+    + getColor() : Color
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class PieceFactory
+{
+    + <<Create>> PieceFactory()
+    + createRook(couleur : Color) : <<Create>> Rook(couleur : Color)
+    + createKnight(couleur : Color) : <<Create>> Knight(couleur : Color)
+    + createBishop(couleur : Color) : <<Create>> Bishop(couleur : Color)
+    + createQueen(couleur : Color) :  <<Create>> Queen(couleur : Color)
+    + createKing(couleur : Color) :  <<Create>> King(couleur : Color)
+    + createPawn(couleur : Color) :  <<Create>> Pawn(couleur : Color)
+}
+
+
+class Player
+{
+    - namePlayer : String
+    - lostPieces : List<Piece>
+    - colorOfPieces : Color
+    - played : boolean = false
+    + <<Create>> Player(name : String, colorOfPieces : Color)
+    + getPlayerName() : String
+    + getLostPieces() : List<Piece>
+    + addLostPiece(piece : Piece)
+    + getColorOfPieces() : Color
+}
+
+class Queen
+{
+    + <<Create>> Queen(couleur : Color)
+    + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Rook
+{
+   + <<Create>> Rook(couleur : Color)
+   + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+}
+
+class Tile
+{
+    - piece : Piece
+    - posX : int
+    - posY : int
+    - isClicked : boolean = false
+    + <<Create>> Tile()
+    + isOccuped() : boolean
+    + setPiece(piece : Piece)
+    + getIsClicked() : boolean
+    + setIsClicked(isClicked : boolean)
+    + getPiece() : Piece
+    + getPosX() : int
+    + getPosY() : int
+    + setPosX(posX : int)
+    + setPosY(posY : int)
+}
+
+Bishop - -|> Piece #line:Red
+Bishop o- -> "use 1 " Color #line:Blue
+
+Board *- -> "use" Tile #line:Green
+Board *- -> "use" PieceFactory #line:Green
+Board *- -> "use" King #line:Green
+
+Game *- -> "use" Board #line:Green
+Game *- -> "use" Player #line:Green
+
+King - -|> Piece #line:Red
+King o- -> "use 1 " Color #line:Blue
+
+Knight - -|> Piece #line:Red
+Knight o- -> "use 1 " Color #line:Blue
+
+Pawn - -|> Piece #line:Red
+Pawn o- -> "use 1 " Color #line:Blue
+
+PieceFactory *- -> "use" Piece #line:Green
+PieceFactory *- -> "use" Rook #line:Green
+PieceFactory *- -> "use" Knight #line:Green
+PieceFactory *- -> "use" Bishop #line:Green
+PieceFactory *- -> "use" Queen #line:Green
+PieceFactory *- -> "use" King #line:Green
+PieceFactory *- -> "use" Pawn #line:Green
+
+Player o- -> "use 1 " Color #line:Blue
+Player *- -> "play with 16" Piece #line:Green
+
+Queen - -|> Piece #line:Red
+Queen o- -> "use 1 " Color #line:Blue
+
+Rook - -|> Piece #line:Red
+Rook o- -> "use 1 " Color #line:Blue
+
+Tile *- -> "use" Piece #line:Green
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>

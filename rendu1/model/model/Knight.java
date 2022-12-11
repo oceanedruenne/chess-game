@@ -7,17 +7,17 @@ import java.util.List;
 // Le cavalier peut leap les autres pièces donc on a pas besoin de vérifier si la case est occupée ou non
 public class Knight extends Piece{
 
-    private Color color;
+    // CONSTRUCTEUR
     public Knight(Color couleur)
     {
         this.color = couleur;
     }
 
 
-    /* getLevalMoves : List<Tile>
+    /* getLegalMoves : List<Tile>
      * Paramètres : Tile[][] tiles, int posX, int posY
      * Variables locales : List<Tile> nonOccupedTiles
-     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le fou
+     * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le cavalier
      * depuis sa position
      * */
     @Override

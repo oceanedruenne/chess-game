@@ -6,13 +6,13 @@ import java.util.List;
 // TOUR
 public class Rook extends Piece{
 
-    private Color color;
+    // CONSTRUCTEUR
     public Rook(Color couleur)
     {
         this.color = couleur;
     }
 
-    /* getLevalMoves : List<Tile>
+    /* getLegalMoves : List<Tile>
      * Paramètres : Tile[][] tiles, int posX, int posY
      * Variables locales : List<Tile> nonOccupedTiles
      * Cette fonction permet de renvoyer une liste de tous les mouvements possibles pour le fou
@@ -23,7 +23,6 @@ public class Rook extends Piece{
    {
        List<Tile> nonOccupedTiles = new ArrayList<Tile>();
 
-       // Boucle qui permet de vérifier si les cases sont occupées ou non lorsqu'on veut se déplacer vers la gauche
        for (int i = posX;i>=0;i--)
        {
            if(posX-i>=0) {
@@ -34,7 +33,6 @@ public class Rook extends Piece{
                }
            }
        }
-       // Boucle qui permet de vérifier si les cases sont occupées ou non lorsqu'on veut se déplacer vers la droite
        for (int j = posX;j<=8;j++)
        {
            if (posX+j<=8) {
@@ -46,7 +44,6 @@ public class Rook extends Piece{
            }
        }
 
-       // Boucle qui permet de vérifier si les cases sont occupées ou non lorsqu'on veut se déplacer vers le haut
        for (int k = posY;k>=0;k--)
        {
            if (posY-k >=0) {
@@ -58,7 +55,6 @@ public class Rook extends Piece{
            }
        }
 
-       // Boucle qui permet de vérifier si les cases sont occupées ou non lorsqu'on veut se déplacer vers le bas
        for (int l = posY;l<=8;l++)
        {
            if (posY+l<=8) {

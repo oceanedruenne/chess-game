@@ -1,11 +1,15 @@
 package view;
 
-import view.ChessBoard;
+import controller.GameController;
 
 public class MainTest {
 
     public static void main(String[] args)
     {
-        ChessBoard chess = new ChessBoard();
+        //String name = "Nina";
+        //String secondName = "Tokyo";
+        //GameController game = new GameController();
+
+        MainMenu menu = new MainMenu();
     }
 }
