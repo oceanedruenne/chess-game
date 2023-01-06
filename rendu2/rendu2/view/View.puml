@@ -3,23 +3,55 @@
 
 class ChessBoard
 {
+    - selectedPosX : int
+    - selectedPosY : int
+    - whiteLostPiecesList : List<Tile>
+    - blackLostPiecesList : List<Tile>
+    - whitePanel : JPanel
+    - blackPanel : JPanel
+    - whiteLostPiecesPanel : JPanel
+    - blackLostPiecesPanel : JPanel
+    - mainPanel : JPanel
     - TILES : JPanel[][] {readOnly}
+    - whiteLostPieces : JPanel[][]
+    - blackLostPieces : JPanel[][]
     - observer : IViewObserver
-    - leapedWhitePieces : JPanel
-    - leapedBlackPieces : JPanel
+    - checked : JLabel
+    - nameWhitePlayer : JLabel
+    - nameBlackPlayer : JLabel
+    - dimensions : Dimension
+    - dimensionsPiece : Dimension
+    - board : Board
+    - tiles : Tile[][]
     + <<Create>> ChessBoard(game : Game)
+    + mouseClick(e : MouseEvent)
+    + disableBlackPieces() : boolean
+    - notifyUpgradePawn(type : String, x: int, y: int)
+    + setObserver(viewObserver : IViewObserver)
+
+
 
 }
 
 class MainMenu
 {
+    + actionPerformed(e : ActionEvent)
 }
 
-interface IViewObserver
+interface IModelObserver
 {
+    + startGame(whitePlayerName : String, blackPlayerName : String)
+    + tileSelected(posX : int, posY : int, legalMoves : List<Tile>)
+    + movePiece(move : Move)
+    + checkedKing(whiteKingIsChecked : boolean, blackKingIsChecked : boolean)
+    + openGameEndDialog(winnerName : String)
+    + openUpgradePawnDialog(x: int, y: int)
+    + upgradePawn(type: String, x: int, y: int)
+
+
 }
 
-ChessBoard *--> "implements" IViewObserver
+ChessBoard *--> "implements" IModelObserver
 
 
 @enduml

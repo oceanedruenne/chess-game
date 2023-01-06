@@ -24,17 +24,22 @@ class Board
     - whiteKing : King
     - selectedTile : Tile
     + <<Create>> Board()
-    - initPieces()
     - initTiles()
-    + clickedOnTile(posX : int, posY : int, colorCurrentPlayer : Color)
-    + kingIsChecked(kingTile : Tile) : boolean
-    + KingIsCheckedMate(kingTile : Tile)
+    - initPieces()
+    + clickedOnTile(posX : int, posY : int, colorCurrentPlayer : Color) : Move
+    - changeSelectedTile(tileClicked : Tile)
+    - kingIsChecked(king : King) : boolean
+    + isKingChecked(color : Color) : boolean
+    + KingIsCheckedMate(king : King) : boolean
+    + isKingCheckedMate(color : Color) : boolean
     + simulateMove(src: Tile, dest : Tile)
     + canMoveTo(src : Tile, dest : Tile) : boolean
     + tileIsEmpty(tile : Tile) : boolean
-    + move(src : Tile, dest : Tile, colorCurrentPlayer : Color) : Piece
+    + move(destX : int, destY : int, colorCurrentPlayer : Color) : Move
+    + upgradePawn(type : String, color : Color, x : int, y : int)
     - getKingTile(king : King) : Tile
     + getSelectedTile() : Tile
+    + getTiles() : Tile[][]
 }
 
 Enum Color
@@ -53,15 +58,18 @@ class Game
     + <<Create>> Game(whitePlayerName : String, blackPlayerName : String)
     + gameStarted(whiteName : String, blackName : String)
     + tileClicked(posX : int, posY : int)
-    + NextPlayer()
-    + nextRound()
+    + nextPlayer()
+    + upgradePawnTo(type : Stirng, color : Color, x : int, y : int)
     - notifyGameStarted()
     - notifyTileSelected(tile : Tile)
-    - notifyMovedPiece(piece : Piece)
-    - notifyNextRound()
-    - notifyEndGame(couleur : Color)
+    - notifyMovedPiece(move : Move)
+    - notifyKingStatus(whiteKingIsChecked : boolean, blackKingIsChecked : boolean)
+    - notifyKingCheckedMate(whiteKingIsCheckedMate : boolean, blackKingIsCheckedMate : boolean)
+    - notifyUpgradePawnDialog(x : int, y : int)
+    - notifyUpgradePawn(type : String, x : int, y : int)
     + setObserver(observer : IModelObserver)
-
+    + getWhitePlayerName() : String
+    + getBlackPlayerName() : String
 }
 
 class King
@@ -73,7 +81,6 @@ class King
     + getIsChecked() : boolean
     + getIsCheckedMate() : boolean
     + setChecked(isChecked : boolean)
-    + setCheckedMate(isCheckedMate : boolean)
 }
 
 class Knight
@@ -82,11 +89,29 @@ class Knight
     + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
 }
 
+class Move
+{
+    - prevX : int
+    - prevY : int
+    - destX : int
+    - destY : int
+    - pieceToRemove : Piece
+    - upgradePawn : boolean
+    + <<Create>> Move(prevX : int, prevY : int, destX : int, destY : int, pieceToRemove : Piece, upgradePawn : boolean)
+    + getPrevX() : int
+    + getPrevY() : int
+    + getDestX() : int
+    + getDestY() : int
+    + getPieceToRemove() : Piece
+    + getUpgradePawn() : boolean
+}
+
 class Pawn
 {
     - moved : boolean = false
     + <<Create>> Pawn(couleur : Color)
     + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + setIsMoved(moved : boolean)
     + getIsMoved() : boolean
 }
 
@@ -95,6 +120,8 @@ abstract class Piece
     # color : Color
     + getColor() : Color
     + getLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + getDiagonalLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
+    + getHorizontalLegalMoves(tiles : Tile[][], posX : int, posY : int) : List<Tile>
 }
 
 class PieceFactory
@@ -117,7 +144,6 @@ class Player
     - played : boolean = false
     + <<Create>> Player(name : String, colorOfPieces : Color)
     + getPlayerName() : String
-    + getLostPieces() : List<Piece>
     + addLostPiece(piece : Piece)
     + getColorOfPieces() : Color
 }
@@ -140,8 +166,8 @@ class Tile
     - posX : int
     - posY : int
     - isClicked : boolean = false
-    + <<Create>> Tile()
-    + isOccuped() : boolean
+    + <<Create>> Tile(i :int, j : int)
+    + isOccupied() : boolean
     + setPiece(piece : Piece)
     + getIsClicked() : boolean
     + setIsClicked(isClicked : boolean)
@@ -158,15 +184,21 @@ Bishop o--> "use 1 " Color #line:Blue
 Board *--> "use" Tile #line:Green
 Board *--> "use" PieceFactory #line:Green
 Board *--> "use" King #line:Green
+Board *--> "use" Move #line:Green
 
+Game --|> "use" Tile #line:Green
 Game *--> "use" Board #line:Green
 Game *--> "use" Player #line:Green
+Game o--> "use 1 " Color #line:Blue
+
 
 King --|> Piece #line:Red
 King o--> "use 1 " Color #line:Blue
 
 Knight --|> Piece #line:Red
 Knight o--> "use 1 " Color #line:Blue
+
+Move --|> Piece #line:Red
 
 Pawn --|> Piece #line:Red
 Pawn o--> "use 1 " Color #line:Blue

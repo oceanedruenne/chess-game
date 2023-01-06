@@ -1,13 +1,13 @@
-Designs patterns utilisés :
+Durant cette deuxième partie de conception du jeu d'échecs, les principes de conception
+ainsi que les designs patterns sont restés les mêmes. 
+Cependant, il y a eu l'ajout de la classe Move afin de pouvoir séparer les mouvements dans 
+une classe à part et que ce soit plus lisible et plus facile à gérer. 
 
-    - Factory → Afin de pouvoir créer les différentes pièces, puisqu'elles ont les mêmes attributs et les mêmes fonctions
-    - Observer → La View observe le Model et le Controller observe la View
-    - Strategy → Reste à faire, utiliser une Strategy pour le comportement des pièces
+Il y a également eu l'utilisation de boîtes de dialogues lors de deux évenements particuliers : 
+        
+    → Lors de la promotion d'un pion
+    → Lors d'un échec et mat 
 
-Principes de conception utilisés :
-
-     - YAGNI → On ne code que l'essentiel, même si cela reste sommaire
-     - KISS → Nous n'utilisons pas de types compliqués
-     - DRY → Si on peut avoir un code optimisé sans répétitions, c'est mieux
-     - Loi de Demeter → Cette loi peut s'appliquer entre le jeu d'échecs, les joueurs et leurs pièces
-
+Il était demandé de réaliser une fenêtre de fin de jeu lorsqu'un des deux joueurs est en échec 
+et mat. Cependant, je trouvais cela plus facile et moins "lourd" d'utiliser des "pop-ups" pour
+notifier des joueurs de la promotion d'un pion et d'un échec et mat. 

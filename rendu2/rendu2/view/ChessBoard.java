@@ -34,8 +34,6 @@ public class ChessBoard extends JFrame implements IModelObserver {
     private JLabel nameWhitePlayer;
     private JLabel nameBlackPlayer;
 
-    public String winnerName;
-
     private Dimension dimensions = new Dimension(64, 64); // Taille d'une case
     private Dimension dimensionsPiece = new Dimension(48, 48); // Taille d'une pièce
 
@@ -477,10 +475,6 @@ public class ChessBoard extends JFrame implements IModelObserver {
         }
     }
 
-    public rendu2.model.Tile getTile(int posX, int posY)
-    {
-        return tiles[posX][posY];
-    }
 
     /* movePiece :
      * Paramètres : Move move

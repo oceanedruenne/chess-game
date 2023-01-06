@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="670px" preserveAspectRatio="none" style="width:690px;height:670px;background:#FFFFFF;" version="1.1" viewBox="0 0 690 670" width="690px" zoomAndPan="magnify"><defs/><g><!--MD5=[d033de46590f850ffdf7ae6d070a6158]
+class ChessBoard--><g id="elem_ChessBoard"><rect codeLine="3" fill="#F1F1F1" height="439.0156" id="ChessBoard" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="309" x="104.5" y="7"/><ellipse cx="215.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M218.5156,18.875 Q218.6719,18.6563 218.8594,18.5469 Q219.0469,18.4375 219.2656,18.4375 Q219.6406,18.4375 219.875,18.7031 Q220.1094,18.9531 220.1094,19.5625 L220.1094,21.0156 Q220.1094,21.625 219.875,21.8906 Q219.6406,22.1563 219.2656,22.1563 Q218.9219,22.1563 218.7188,21.9531 Q218.5156,21.7656 218.4063,21.25 Q218.3594,20.8906 218.1719,20.7031 Q217.8438,20.3281 217.2344,20.1094 Q216.625,19.8906 216,19.8906 Q215.2344,19.8906 214.5938,20.2188 Q213.9688,20.5469 213.4688,21.2969 Q212.9844,22.0469 212.9844,23.0781 L212.9844,24.1719 Q212.9844,25.4063 213.875,26.2344 Q214.7656,27.0469 216.3594,27.0469 Q217.2969,27.0469 217.9531,26.7969 Q218.3438,26.6406 218.7656,26.2031 Q219.0313,25.9375 219.1719,25.8594 Q219.3281,25.7813 219.5313,25.7813 Q219.8594,25.7813 220.1094,26.0469 Q220.375,26.2969 220.375,26.6406 Q220.375,26.9844 220.0313,27.3906 Q219.5313,27.9688 218.7344,28.2969 Q217.6563,28.75 216.3594,28.75 Q214.8438,28.75 213.6406,28.125 Q212.6563,27.625 211.9688,26.5625 Q211.2813,25.4844 211.2813,24.2031 L211.2813,23.0469 Q211.2813,21.7188 211.8906,20.5781 Q212.5156,19.4219 213.6094,18.8125 Q214.7031,18.1875 215.9375,18.1875 Q216.6719,18.1875 217.3125,18.3594 Q217.9688,18.5156 218.5156,18.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="236.25" y="27.8535">ChessBoard</text><line style="stroke:#181818;stroke-width:0.5;" x1="105.5" x2="412.5" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="49.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="124.5" y="55.6738">selectedPosX : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="64.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="124.5" y="71.3145">selectedPosY : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="80.6016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="124.5" y="86.9551">whiteLostPiecesList : List&lt;Tile&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="96.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="124.5" y="102.5957">blackLostPiecesList : List&lt;Tile&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="111.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="124.5" y="118.2363">whitePanel : JPanel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="127.5234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="124.5" y="133.877">blackPanel : JPanel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="143.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="124.5" y="149.5176">whiteLostPiecesPanel : JPanel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="158.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="124.5" y="165.1582">blackLostPiecesPanel : JPanel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="174.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="124.5" y="180.7988">mainPanel : JPanel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="190.0859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="124.5" y="196.4395">TILES : JPanel[][] {readOnly}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="205.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="124.5" y="212.0801">whiteLostPieces : JPanel[][]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="221.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="124.5" y="227.7207">blackLostPieces : JPanel[][]</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="237.0078"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="124.5" y="243.3613">observer : IViewObserver</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="252.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="124.5" y="259.002">checked : JLabel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="268.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="124.5" y="274.6426">nameWhitePlayer : JLabel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="283.9297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="124.5" y="290.2832">nameBlackPlayer : JLabel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="299.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="124.5" y="305.9238">dimensions : Dimension</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="315.2109"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="124.5" y="321.5645">dimensionsPiece : Dimension</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="330.8516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="124.5" y="337.2051">board : Board</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="346.4922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="124.5" y="352.8457">tiles : Tile[][]</text><line style="stroke:#181818;stroke-width:0.5;" x1="105.5" x2="412.5" y1="359.8125" y2="359.8125"/><ellipse cx="115.5" cy="373.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="124.5" y="376.4863">«Create» ChessBoard(game : Game)</text><ellipse cx="115.5" cy="388.7734" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="124.5" y="392.127">mouseClick(e : MouseEvent)</text><ellipse cx="115.5" cy="404.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="124.5" y="407.7676">disableBlackPieces() : boolean</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="112.5" y="417.0547"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="283" x="124.5" y="423.4082">notifyUpgradePawn(type : String, x: int, y: int)</text><ellipse cx="115.5" cy="435.6953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="277" x="124.5" y="439.0488">setObserver(viewObserver : IViewObserver)</text></g><!--MD5=[80806e08dac105db4bf03e60335471e4]
+class MainMenu--><g id="elem_MainMenu"><rect codeLine="35" fill="#F1F1F1" height="63.6406" id="MainMenu" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="235" x="448.5" y="194.5"/><ellipse cx="529.25" cy="210.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M532.0156,206.375 Q532.1719,206.1563 532.3594,206.0469 Q532.5469,205.9375 532.7656,205.9375 Q533.1406,205.9375 533.375,206.2031 Q533.6094,206.4531 533.6094,207.0625 L533.6094,208.5156 Q533.6094,209.125 533.375,209.3906 Q533.1406,209.6563 532.7656,209.6563 Q532.4219,209.6563 532.2188,209.4531 Q532.0156,209.2656 531.9063,208.75 Q531.8594,208.3906 531.6719,208.2031 Q531.3438,207.8281 530.7344,207.6094 Q530.125,207.3906 529.5,207.3906 Q528.7344,207.3906 528.0938,207.7188 Q527.4688,208.0469 526.9688,208.7969 Q526.4844,209.5469 526.4844,210.5781 L526.4844,211.6719 Q526.4844,212.9063 527.375,213.7344 Q528.2656,214.5469 529.8594,214.5469 Q530.7969,214.5469 531.4531,214.2969 Q531.8438,214.1406 532.2656,213.7031 Q532.5313,213.4375 532.6719,213.3594 Q532.8281,213.2813 533.0313,213.2813 Q533.3594,213.2813 533.6094,213.5469 Q533.875,213.7969 533.875,214.1406 Q533.875,214.4844 533.5313,214.8906 Q533.0313,215.4688 532.2344,215.7969 Q531.1563,216.25 529.8594,216.25 Q528.3438,216.25 527.1406,215.625 Q526.1563,215.125 525.4688,214.0625 Q524.7813,212.9844 524.7813,211.7031 L524.7813,210.5469 Q524.7813,209.2188 525.3906,208.0781 Q526.0156,206.9219 527.1094,206.3125 Q528.2031,205.6875 529.4375,205.6875 Q530.1719,205.6875 530.8125,205.8594 Q531.4688,206.0156 532.0156,206.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="549.75" y="215.3535">MainMenu</text><line style="stroke:#181818;stroke-width:0.5;" x1="449.5" x2="682.5" y1="226.5" y2="226.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="449.5" x2="682.5" y1="234.5" y2="234.5"/><ellipse cx="459.5" cy="247.8203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="468.5" y="251.1738">actionPerformed(e : ActionEvent)</text></g><!--MD5=[64a1ac72007cb7f57807247684a3decb]
+class IModelObserver--><g id="elem_IModelObserver"><rect codeLine="40" fill="#F1F1F1" height="157.4844" id="IModelObserver" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="504" x="7" y="506"/><ellipse cx="204.25" cy="522" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M205.2031,518.6406 L205.2031,525.2969 L206.9219,525.2969 Q207.5313,525.2969 207.7969,525.5313 Q208.0625,525.7656 208.0625,526.1563 Q208.0625,526.5313 207.7969,526.7656 Q207.5313,527 206.9219,527 L201.7813,527 Q201.1719,527 200.9063,526.7656 Q200.6406,526.5313 200.6406,526.1406 Q200.6406,525.7656 200.9063,525.5313 Q201.1719,525.2969 201.7813,525.2969 L203.5,525.2969 L203.5,518.6406 L201.7813,518.6406 Q201.1719,518.6406 200.9063,518.4063 Q200.6406,518.1719 200.6406,517.7813 Q200.6406,517.4063 200.9063,517.1719 Q201.1719,516.9375 201.7813,516.9375 L206.9219,516.9375 Q207.5313,516.9375 207.7969,517.1719 Q208.0625,517.4063 208.0625,517.7813 Q208.0625,518.1719 207.7969,518.4063 Q207.5313,518.6406 206.9219,518.6406 L205.2031,518.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="101" x="224.75" y="526.8535">IModelObserver</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="510" y1="538" y2="538"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="510" y1="546" y2="546"/><ellipse cx="18" cy="559.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="399" x="27" y="562.6738">startGame(whitePlayerName : String, blackPlayerName : String)</text><ellipse cx="18" cy="574.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="360" x="27" y="578.3145">tileSelected(posX : int, posY : int, legalMoves : List&lt;Tile&gt;)</text><ellipse cx="18" cy="590.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="27" y="593.9551">movePiece(move : Move)</text><ellipse cx="18" cy="606.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="478" x="27" y="609.5957">checkedKing(whiteKingIsChecked : boolean, blackKingIsChecked : boolean)</text><ellipse cx="18" cy="621.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="27" y="625.2363">openGameEndDialog(winnerName : String)</text><ellipse cx="18" cy="637.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="27" y="640.877">openUpgradePawnDialog(x: int, y: int)</text><ellipse cx="18" cy="653.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="27" y="656.5176">upgradePawn(type: String, x: int, y: int)</text></g><!--MD5=[046bfa5f98de27c13408ef3890948d5d]
+link ChessBoard to IModelObserver--><g id="link_ChessBoard_IModelObserver"><path codeLine="53" d="M259,458.12 C259,458.12 259,482.04 259,492.66 " fill="none" id="ChessBoard-IModelObserver" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="259,505.8,263,496.8,259,500.8,255,496.8,259,505.8" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="259" x2="259" y1="500.8" y2="492.8"/><polygon fill="#181818" points="259,446.12,255,452.12,259,458.12,263,452.12,259,446.12" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="188.7023" y="495.1344">implements</text></g><!--MD5=[2fdb957cb556955a616ec6c560fd154c]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ChessBoard
+{
+    - selectedPosX : int
+    - selectedPosY : int
+    - whiteLostPiecesList : List<Tile>
+    - blackLostPiecesList : List<Tile>
+    - whitePanel : JPanel
+    - blackPanel : JPanel
+    - whiteLostPiecesPanel : JPanel
+    - blackLostPiecesPanel : JPanel
+    - mainPanel : JPanel
+    - TILES : JPanel[][] {readOnly}
+    - whiteLostPieces : JPanel[][]
+    - blackLostPieces : JPanel[][]
+    - observer : IViewObserver
+    - checked : JLabel
+    - nameWhitePlayer : JLabel
+    - nameBlackPlayer : JLabel
+    - dimensions : Dimension
+    - dimensionsPiece : Dimension
+    - board : Board
+    - tiles : Tile[][]
+    + <<Create>> ChessBoard(game : Game)
+    + mouseClick(e : MouseEvent)
+    + disableBlackPieces() : boolean
+    - notifyUpgradePawn(type : String, x: int, y: int)
+    + setObserver(viewObserver : IViewObserver)
+
+
+
+}
+
+class MainMenu
+{
+    + actionPerformed(e : ActionEvent)
+}
+
+interface IModelObserver
+{
+    + startGame(whitePlayerName : String, blackPlayerName : String)
+    + tileSelected(posX : int, posY : int, legalMoves : List<Tile>)
+    + movePiece(move : Move)
+    + checkedKing(whiteKingIsChecked : boolean, blackKingIsChecked : boolean)
+    + openGameEndDialog(winnerName : String)
+    + openUpgradePawnDialog(x: int, y: int)
+    + upgradePawn(type: String, x: int, y: int)
+
+
+}
+
+ChessBoard *- -> "implements" IModelObserver
+
+
+@enduml
+
+@startuml
+
+class ChessBoard
+{
+    - selectedPosX : int
+    - selectedPosY : int
+    - whiteLostPiecesList : List<Tile>
+    - blackLostPiecesList : List<Tile>
+    - whitePanel : JPanel
+    - blackPanel : JPanel
+    - whiteLostPiecesPanel : JPanel
+    - blackLostPiecesPanel : JPanel
+    - mainPanel : JPanel
+    - TILES : JPanel[][] {readOnly}
+    - whiteLostPieces : JPanel[][]
+    - blackLostPieces : JPanel[][]
+    - observer : IViewObserver
+    - checked : JLabel
+    - nameWhitePlayer : JLabel
+    - nameBlackPlayer : JLabel
+    - dimensions : Dimension
+    - dimensionsPiece : Dimension
+    - board : Board
+    - tiles : Tile[][]
+    + <<Create>> ChessBoard(game : Game)
+    + mouseClick(e : MouseEvent)
+    + disableBlackPieces() : boolean
+    - notifyUpgradePawn(type : String, x: int, y: int)
+    + setObserver(viewObserver : IViewObserver)
+
+
+
+}
+
+class MainMenu
+{
+    + actionPerformed(e : ActionEvent)
+}
+
+interface IModelObserver
+{
+    + startGame(whitePlayerName : String, blackPlayerName : String)
+    + tileSelected(posX : int, posY : int, legalMoves : List<Tile>)
+    + movePiece(move : Move)
+    + checkedKing(whiteKingIsChecked : boolean, blackKingIsChecked : boolean)
+    + openGameEndDialog(winnerName : String)
+    + openUpgradePawnDialog(x: int, y: int)
+    + upgradePawn(type: String, x: int, y: int)
+
+
+}
+
+ChessBoard *- -> "implements" IModelObserver
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: fr
+Country: FR
+--></g></svg>

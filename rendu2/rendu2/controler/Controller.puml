@@ -3,6 +3,7 @@
 
 interface IViewObserver {
     + tileClicked(posX : int, posY : int)
+    + upgradePawn(type : String, color : Color, x : int, y : int)
 }
 
 class GameController {

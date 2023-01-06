@@ -4,16 +4,19 @@
 interface IViewObserver
 {
     + tileClicked(posX : int, posY : int)
+    + upgradePawn(type :String, posX : int, posY : int)
 }
 
 interface IModelObserver
 {
     + startGame(whitePlayerName : String, blackPlayerName : String)
     + tileSelected(tile : Tile)
-    + movePiece(piece : Piece)
-    + nextRound()
-    + checkedMate(couleur : Color)
-    + checkedKing()
+    + movePiece(move : Move)
+    + checkedKing(whiteKingIsChecked : boolean, blackKingIsChecked : boolean)
+    + openEndGameDialog(winnerName : String)
+    + openUpgradePawnDialog(x :int, y : int)
+    + upgradePawn(type : String, x :int, y : int)
+
 }
 
 @enduml

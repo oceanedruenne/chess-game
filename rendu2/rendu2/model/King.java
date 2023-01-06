@@ -52,12 +52,4 @@ public class King extends Piece {
        this.isChecked = isChecked;
    }
 
-    /* setCheckedMate :
-     * Paramètres : boolean isCheckedMate
-     * Cette fonction est un setter : elle permet de modifier l'attribut isCheckedMate
-     * */
-   public void setCheckedMate(boolean isCheckedMate)
-   {
-       this.isCheckedMate = isCheckedMate;
-   }
 }
