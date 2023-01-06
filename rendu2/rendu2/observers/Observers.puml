@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface IViewObserver
+{
+    + tileClicked(posX : int, posY : int)
+}
+
+interface IModelObserver
+{
+    + startGame(whitePlayerName : String, blackPlayerName : String)
+    + tileSelected(tile : Tile)
+    + movePiece(piece : Piece)
+    + nextRound()
+    + checkedMate(couleur : Color)
+    + checkedKing()
+}
+
+@enduml

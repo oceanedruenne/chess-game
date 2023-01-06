@@ -1,4 +1,4 @@
-package model;
+package rendu2.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,30 +33,14 @@ public class King extends Piece {
            // Boucle pour les mouvements horizontaux
            for (int j = posY-1;j<=posY+1;j++)
            {
-               if(i>=0 && j>=0 && i<=8 && j<=8) {
-                   if (tiles[i][j].isOccuped() == false) {
+               if(i>=0 && j>=0 && i<8 && j<8) {
+                   if (!tiles[i][j].isOccupied() || tiles[i][j].getPiece().getColor() != this.color) {
                        nonOccupedTiles.add(tiles[i][j]);
                    }
                }
            }
        }
        return nonOccupedTiles;
-   }
-
-    /* getIsChecked : boolean
-     * Cette fonction est un getter : elle permet de renvoyer l'attribut privé isChecked
-     * */
-   public boolean getisChecked()
-   {
-       return this.isChecked;
-   }
-
-    /* getIsCheckedMate : boolean
-     * Cette fonction est un getter : elle permet de renvoyer l'attribut privé isCheckedMate
-     * */
-   public boolean getisCheckedMate()
-   {
-       return this.isCheckedMate;
    }
 
     /* setChecked :
